@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_big">24dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="list_divider_height">1px</dimen>
+    <dimen name="actionbar_height">48dp</dimen>
+    <dimen name="big_actionbar_height">64dp</dimen>
+    
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_prefs_section">14sp</dimen>
+    
+    <!-- Layar stuff -->
+    <dimen name="launch_area_width">50dip</dimen>
+    <dimen name="layer_item_height">80dip</dimen>
+    <dimen name="spotlight_item_height">56dip</dimen>
+    <dimen name="spotlight_details_lines_portrait">125dip</dimen>
+    <dimen name="spotlight_details_actions">30dip</dimen>
+    <dimen name="ar_buttons_offset">6dp</dimen>
+    <dimen name="ar_biw_top_height">40dip</dimen>
+    <dimen name="poi_image_height">68dip</dimen>
+    <dimen name="poi_image_width">101dip</dimen>
+    <dimen name="poi_image_rounds">5dip</dimen>
+    <dimen name="vision_bottom_bar_height">48dip</dimen>
+    <dimen name="watermark_padding">8dp</dimen>
+    
+    <dimen name="audio_player_height">32dp</dimen>
+
+</resources>

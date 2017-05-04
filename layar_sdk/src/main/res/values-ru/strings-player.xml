@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Please do not translate the string names and the placeholders (%%) -->
+
+
+    <!-- General Strings -->
+    <string name="ok">OK</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="apply">Применить</string>
+    <string name="save">Сохранить</string>
+    <string name="use">Использовать</string>
+    <string name="cancel">Отменить</string>
+    <string name="continue_">Далее</string>
+    <string name="layer">Слой</string>
+    <string name="action_scan">Сканировать</string>
+    <string name="action_share">Поделиться</string>
+    <string name="ellipsis">...</string>
+
+    <!-- Miscellaneous errors -->
+    <string name="no_connection_title">Вы не подключены к сети</string>
+    <string name="no_connection_message">Вы не подключены к сети. Проверьте, пожалуйста, соединение с интернетом или попробуйте позже.</string>
+    <string name="no_connection_settings">Настройки</string>
+    <string name="toast_gps_disabled">GPS модуль выключен</string>
+    <string name="openGPSSettingPrompt">GPS выключен, включить?</string>
+    <string name="error_no_connection">Невозможно подключиться</string>
+    <string name="error_no_active_connection">Вы не подключены к сети</string>
+    <string name="unable_to_connect">Невозможно подключиться к серверу, попробуйте позже.</string>
+    <string name="error_out_of_memory">Мало памяти. Пожалуйста, закройте другие приложения и повторите попытку.</string>
+    <string name="error_layer_deleted">Этот слой больше недоступен</string>
+    <string name="error_maintenance">На сервере Layar проводятся технические работы. Вскоре работа Layar будет возобновлена.</string>
+    <string name="error_maintenance_title">Проводятся технические работы.</string>
+    <string name="error_location_provider_title">Layar необходимо знать ваше местоположение</string>
+    <string name="error_location_provider_message">Для просмотра гео-слоёв включите, пожалуйста, службы геолокации для приложения Layar в настройках вашего устройства</string>
+    <string name="error_oauth_timestamp_invalid">Дата или время установлены неверно. Проверьте, пожалуйста, настройки вашего устройства и повторите попытку.</string>
+    <string name="error_oauth_verification_failed">Не пройдена проверка подлинности на сервере. Повторите попытку позже.</string>
+    <string name="error_player_expired">Срок использования платформы Layar для этого приложения истёк.</string>
+
+    <!-- Vision AR View -->
+    <string name="vision_no_content_title">Страница без содержимого</string>
+    <string name="vision_no_content_text">Сосканируйте другую страницу чтобы увидеть содержимое</string>
+    <string name="vision_scan">Коснитесь экрана для сканирования</string>
+    <string name="unsupported_content_title">Содержимое не поддерживается</string>
+    <string name="unsupported_content_description">Такое содержимое не совместимо с установленной версией Layar</string>
+
+    <!-- View Buttons -->
+    <string name="view_map">Карта</string>
+    <string name="view_list">Список</string>
+
+    <!-- Menu Options -->
+    <string name="menu_filter">Фильтры</string>
+    <string name="menu_refresh">Обновить</string>
+    <string name="menu_layer_info">Информация о слое</string>
+    <string name="menu_screenshot">Скриншот</string>
+    <string name="menu_goto_ar">Просмотр в режиме дополненной реальности</string>
+
+    <!-- Auto Trigger Options -->
+    <string name="trigger_available">Этому объекту назначено автоматическое действие.</string>
+    <string name="trigger_do_launch_action">Запустить</string>
+    <string name="trigger_dont_launch_action">Не запускать</string>
+
+    <!-- Action Chooser -->
+    <string name="action_chooser_title">Выбрать приложение</string>
+
+    <!-- Sharing -->
+    <string name="share_dialog_title">Метод отправки</string>
+    <string name="share_chooser_title">Отправить слой</string>
+    <string name="share_layer">Рассказать о слое</string>
+    <!-- supressed -->
+    <string name="share_screenshot">Опубликовать скриншот</string>
+    <string name="share_success_message">Отлично, информация о слое опубликована!</string>
+    <string name="share_fail">Во время публикации возникла проблема!</string>
+    <string name="layer_details_subject" formatted="false">Смотрите %title% в #layar</string>
+    <string name="layer_details_body" formatted="false">Я нашел отличный слой в приложении Layar на %android%!
+\n\n%name%
+\n\n%description%
+\nОпубликован: %publisher%
+\nСсылка: %link%
+\nLayar можно бесплатно скачать для iPhone и Android по адресу http://get.layar.com</string>
+    <string name="share_status">Опубликовать статус</string>
+
+    <!-- POI actions -->
+    <string name="poi_action_directions">Проложить маршрут</string>
+    <string name="poi_action_lock">Фиксировать просмотр</string>
+    <string name="poi_action_unlock">Разблокировать просмотр</string>
+    <string name="poi_action_more">Еще</string>
+    
+    <!-- Audio -->
+    <string name="audio_loading">Идет загрузка аудио</string>
+    <string name="audio_error">Этот аудио-файл не может быть воспроизведён.</string>
+    <string name="audio_error_title">Невозможно воспроизвести аудио</string>
+
+    <!-- Video -->
+    <string name="video_loading">Идет загрузка видео</string>
+
+    <!-- DetailsView -->
+
+    <string name="copy_link">Копировать ссылку</string>
+    <string name="copy_message">Ссылка скопирована</string>
+    <string name="copy_message_fail">Нечего копировать (строка пуста)</string>
+
+    <!-- Status -->
+    <string name="status_waiting_location">Определение местоположения...</string>
+    <string name="status_authentication_required">Аутентифицируйтесь чтобы использовать слой</string>
+
+    <!-- Status results -->
+    <string name="status_no_results_found">Ничего не найдено</string>
+    <string name="status_1_result_found" formatted="false">Найдена одна точка.</string>
+    <string name="status_x_results_found" formatted="false">Найдено точек: %progress% </string>
+    <string name="status_no_content_available">Нет содержания</string>
+    <string name="status_something_went_wrong">Что-то пошло не так. Повторите попытку позже.</string>
+
+    <!-- Progress -->
+    <string name="progress_loading">Загрузка...</string>
+    <string name="progress_processing">Обработка...</string>
+    <string name="progress_analyzing">Анализ...</string>
+    <string name="progress_getting_results">Получение результатов...</string>
+    <string name="progress_getting_content">Загрузка содержимого...</string>
+
+    <!-- Social stuff -->
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="developer">Разработчик</string>
+    <string name="email">Email</string>
+
+    <!-- Feedback -->
+    <string name="layer_report_problem">Сообщить о проблеме</string>
+
+    <!-- POIDetails strings -->
+    <string name="spot_actions">Действия с точкой</string>
+
+    <!-- Layer custom filters -->
+    <string name="custom_filter_range_settings">Дальность</string>
+    <string name="custom_filter_range_text" formatted="false">Показать точки в радиусе %value%</string>
+    <string name="custom_filter_layer_settings">Настройки слоя</string>
+
+    <!-- DetailsView activity -->
+    <string name="leaving_message">Нажмите кнопку Назад, чтобы вернуться в Layar</string>
+    <string name="download_message">Вы уверены, что хотите скачать этот PDF-документ?</string>
+    <string name="open_in_browser">Открыть в браузере</string>
+    <string name="download_layar_title">Скачайте Layar</string>
+    <string name="download_layar_description">Для просмотра этого содержимого необходимо установить приложение Layar, это бесплатно.</string>
+    <string name="download_layar_button">Скачать Layar</string>
+
+    <!-- Problem reporting -->
+    <string name="multiple_login_email_address">support@layar.com</string>
+    <string name="layer_report_problem_body" formatted="false">Я заметил проблему в слое %layername%. Проверьте, пожалуйста!</string>
+    <string name="qrcode_audio">Аудио</string>
+    <string name="qrcode_audio_text">Слушать</string>
+    <string name="qrcode_email">Email</string>
+    <string name="qrcode_geo">Местоположение</string>
+    <string name="qrcode_geo_text">Посмотреть на карте</string>
+    <string name="qrcode_layer">Слой</string>
+    <string name="qrcode_sms">SMS-сообщение</string>
+    <string name="qrcode_tel">Позвонить</string>
+    <string name="qrcode_unknown">Не определено</string>
+    <string name="qrcode_vcard">vCard</string>
+    <string name="qrcode_video">Видео</string>
+    <string name="qrcode_video_text">Смотреть</string>
+    <string name="qrcode_web">WWW</string>
+    <string name="qrcode_googleplay">Google Play</string>
+    <string name="qrcode_unsuported_action">Не поддерживается</string>
+
+    <!-- Share on Facebook -->
+    <string name="share_on_facebook_write_post">Написать в Facebook</string>
+    <string name="share_on_facebook_post">Отправить в Facebook</string>
+    <string name="share_on_facebook_whats_on_your_mind">О чем вы думаете?</string>
+    <string name="share_on_facebook_share_link">Поделиться ссылкой</string>
+    <string name="share_on_facebook_share">Поделиться</string>
+    <string name="share_on_facebook_add_your_thougth">Поделиться этим...</string>
+    <string name="share_generic_message">Я нашел ссылку в #layar</string>
+    <string name="share_via">Отправить с помощью</string>
+
+    <!-- Tips -->
+    <string name="tip_point_back">Направьте камеру на отсканированный предмет</string>
+    <string name="tip_point_back_hint"></string>
+    <string name="tip_nothing_found">Ничего не найдено</string>    
+    <string name="tip_nothing_found_hint_1" formatted="false"><b>Подсказка:</b> Сканируйте предметы с логотипом %appname% или QR-коды</string>
+    <string name="tip_nothing_found_hint_2"><b>Подсказка:</b> тряска и плохое освещение могут вызвать проблемы при сканировании</string>
+    <string name="tip_nothing_found_hint_3" formatted="false"><b>Подсказка:</b> На странице нет логотипа %appname%? Попробуйте сканировать QR-коды</string>
+    <string name="tip_nothing_found_hint_4" formatted="false"><b>Подсказка:</b> Сканируйте предметы с логотипом %appname%</string>
+    <string name="tip_nothing_found_hint_5"><b>Подсказка:</b> Сканируете окрестности? Откройте гео-слой</string>
+    <string name="tap_to_dismiss">Нажмите, чтобы закрыть</string>
+    
+    <string name="tip_detach_gestures_flat">Масштабирование - двумя пальцами.</string>
+    <string name="tip_detach_gestures_3d">Масштабирование и вращение - двумя пальцами.</string>
+
+    <!-- Take screenshot -->
+    <string name="tap_to_take_screenshot">Сделать фото</string>
+    <string name="cant_take_screenshot">На этом экране фото сделать нельзя</string>
+    <string name="screenshot_saved">Картинка добавлена в галерею</string>
+    
+    <string name="map_view">Перейти в режим карты</string>
+    <string name="refresh_layer">Обновить</string>
+    <string name="ar_view">Перейти в режим AR</string>
+    <string name="share">Поделиться</string>
+    <string name="filters">Фильтры</string>
+    <string name="layer_info">Информация о слое</string>
+    <string name="layer_actions">Действия со слоем</string>
+    <string name="layer_photo">Сделать фото</string>
+    
+    <string name="detach_content">Развернуть на весь экран</string>
+    <string name="detach_tip">Направьте камеру обратно на предмет или нажмите кнопку внизу</string>
+    
+    
+</resources>

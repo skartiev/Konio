@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- Frame -->
+
+    <LinearLayout
+        android:id="@+id/scanView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/top_padding"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#33ffffff"
+            android:visibility="invisible" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#33ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <View
+                android:layout_width="16dp"
+                android:layout_height="match_parent"
+                android:background="#33ffffff" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/layar_vision_line" />
+
+            <View
+                android:layout_width="16dp"
+                android:layout_height="match_parent"
+                android:background="#33ffffff" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_tap_to_scan"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#33ffffff"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:shadowRadius="1"
+            android:text="@string/vision_scan"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/text_size_large" />
+
+        <View
+            android:id="@+id/bottom_padding"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#33ffffff"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <!-- End of frame -->
+
+    <RelativeLayout
+        android:id="@+id/overlay_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/detach_tip"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" 
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detach_tip"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_medium"
+                    android:background="@drawable/layar_tip_bg" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/layar_tip_arrow_down" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/detach_button_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/actionbar_height"
+                android:background="#80000000"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/detach_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:src="@drawable/layar_detach" />
+
+                <TextView
+                    android:id="@+id/detach_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:shadowColor="#000000"
+                    android:shadowRadius="1"
+                    android:text="@string/detach_content"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/text_size_medium" />
+            </LinearLayout>
+
+            <com.layar.ui.AudioPlayerView
+                android:id="@+id/audio_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <com.layar.player.ui.TipView
+            android:id="@+id/nothing_found_widget"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</FrameLayout>

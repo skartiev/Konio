@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Please do not translate the string names and the placeholders (%%) -->
+
+
+    <!-- General Strings -->
+    <string name="ok">OK</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="apply">適用</string>
+    <string name="save">保存</string>
+    <string name="use">利用する</string>
+    <string name="cancel">キャンセル</string>
+    <string name="continue_">次へ</string>
+    <string name="layer">Layer</string>
+    <string name="action_scan">スキャン</string>
+    <string name="action_share">共有</string>
+    <string name="ellipsis">...</string>
+
+    <!-- Miscellaneous errors -->
+    <string name="no_connection_title">ネットワークに接続されていません</string>
+    <string name="no_connection_message">接続できません。ネットワークの状態を確認してもう一度お試しください</string>
+    <string name="no_connection_settings">設定</string>
+    <string name="toast_gps_disabled">GPSが無効です。</string>
+    <string name="openGPSSettingPrompt">GSPが無効です。端末の位置情報サービスを有効にしましたか？</string>
+    <string name="error_no_connection">接続できません。</string>
+    <string name="error_no_active_connection">ネットワークに接続されていません</string>
+    <string name="unable_to_connect">サーバーに接続できません。あとでもう一度お試しください。</string>
+    <string name="error_out_of_memory">メモリーが不足しています。他のアプリを終了してからお試しください。</string>
+    <string name="error_layer_deleted">このコンテンツは利用できません。</string>
+    <string name="error_maintenance">Layarサーバーはメンテナンス中です。</string>
+    <string name="error_maintenance_title">メンテナンス中です</string>
+    <string name="error_location_provider_title">Layarはあなたの位置情報を使用します</string>
+    <string name="error_location_provider_message">ロケーション型Layarを利用するには端末\'sの設定メニューで位置情報サービスをオンにしてください。</string>
+    <string name="error_oauth_timestamp_invalid">日付が間違っています。端末の設定を確認し、再度お試しください。</string>
+    <string name="error_oauth_verification_failed">サーバー接続に失敗しました。しばらくしてからもう一度お試しください。</string>
+    <string name="error_player_expired">このアプリへのアクセス有効期限が切れています</string>
+
+    <!-- Vision AR View -->
+    <string name="vision_no_content_title">ページがみつかりません</string>
+    <string name="vision_no_content_text">他のページで試してみてください</string>
+    <string name="vision_scan">画面をタップしてください</string>
+    <string name="unsupported_content_title">サポート外のコンテンツです</string>
+    <string name="unsupported_content_description">お使いのLayarのバージョンではこのコンテンツは利用できません。</string>
+
+    <!-- View Buttons -->
+    <string name="view_map">マップ</string>
+    <string name="view_list">リスト</string>
+
+    <!-- Menu Options -->
+    <string name="menu_filter">検索条件</string>
+    <string name="menu_refresh">更新</string>
+    <string name="menu_layer_info">各種情報</string>
+    <string name="menu_screenshot">スクリーンショット</string>
+    <string name="menu_goto_ar">カメラ</string>
+
+    <!-- Auto Trigger Options -->
+    <string name="trigger_available">オートトリガーをオンにしますか？</string>
+    <string name="trigger_do_launch_action">起動</string>
+    <string name="trigger_dont_launch_action">起動しない</string>
+
+    <!-- Action Chooser -->
+    <string name="action_chooser_title">アプリケーションの選択</string>
+
+    <!-- Sharing -->
+    <string name="share_dialog_title">ルートを共有する</string>
+    <string name="share_chooser_title">このコンテンツを友達に教える</string>
+    <string name="share_layer">コンテンツを共有</string>
+    <!-- supressed -->
+    <string name="share_screenshot">スクリーンショットを共有</string>
+    <string name="share_success_message">共有できました</string>
+    <string name="share_fail">共有できませんでした</string>
+    <string name="layer_details_subject" formatted="false">#layarで%title%をチェック！</string>
+    <string name="layer_details_body" formatted="false">%android%で見つけたLayarコンテンツを紹介します！
+\n\n%name%
+\n\n%description%
+\n公開者:%publisher%
+\nリンク:%link%
+\nhttp://get.layar.comからLayarアプリ（無料）をダウンロードしてください！</string>
+    <string name="share_status">ステータスを共有</string>
+
+    <!-- POI actions -->
+    <string name="poi_action_directions">ルート案内</string>
+    <string name="poi_action_lock">アイコンを固定する</string>
+    <string name="poi_action_unlock">アイコンの固定を解除する</string>
+    <string name="poi_action_more">その他</string>
+    
+    <!-- Audio -->
+    <string name="audio_loading">ロード中...</string>
+    <string name="audio_error">この音楽ファイルは再生できません。</string>
+    <string name="audio_error_title">音楽ファイルを再生できません。</string>
+
+    <!-- Video -->
+    <string name="video_loading">ビデオ再生中</string>
+
+    <!-- DetailsView -->
+
+    <string name="copy_link">リンクをコピー</string>
+    <string name="copy_message">リンクをコピーしました</string>
+    <string name="copy_message_fail">コピーできません</string>
+
+    <!-- Status -->
+    <string name="status_waiting_location">緯度経度情報取得中...</string>
+    <string name="status_authentication_required">layerを承認してください
+</string>
+
+    <!-- Status results -->
+    <string name="status_no_results_found">０件の結果</string>
+    <string name="status_1_result_found" formatted="false">1ポイント見つかりました</string>
+    <string name="status_x_results_found" formatted="false">%progress%ポイント見つかりました</string>
+    <string name="status_no_content_available">コンテンツが見つかりません</string>
+    <string name="status_something_went_wrong">失敗しました。もう一度お試しください！</string>
+
+    <!-- Progress -->
+    <string name="progress_loading">ロード中...</string>
+    <string name="progress_processing">処理中...</string>
+    <string name="progress_analyzing">画像認識中...</string>
+    <string name="progress_getting_results">検索中...</string>
+    <string name="progress_getting_content">情報取得中...</string>
+
+    <!-- Social stuff -->
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="developer">開発者</string>
+    <string name="email">メール</string>
+
+    <!-- Feedback -->
+    <string name="layer_report_problem">バグを報告する</string>
+
+    <!-- POIDetails strings -->
+    <string name="spot_actions">アクション</string>
+
+    <!-- Layer custom filters -->
+    <string name="custom_filter_range_settings">範囲</string>
+    <string name="custom_filter_range_text" formatted="false">%value%以内のスポットを表示</string>
+    <string name="custom_filter_layer_settings">設定</string>
+
+    <!-- DetailsView activity -->
+    <string name="leaving_message">戻り方：戻るボタンを押してください！</string>
+    <string name="download_message">このPDFをダウンロードしますか？</string>
+    <string name="open_in_browser">ブラウザでひらく</string>
+    <string name="download_layar_title">Layarのダウンロード</string>
+    <string name="download_layar_description">このコンテンツを見るためにはLayarアプリ（無料）をダウンロードしてください。</string>
+    <string name="download_layar_button">Layarを使ってみる</string>
+
+    <!-- Problem reporting -->
+    <string name="multiple_login_email_address">support@layar.com</string>
+    <string name="layer_report_problem_body" formatted="false">%layername%で問題を見つけました。確認してください！</string>
+    <string name="qrcode_audio">音楽</string>
+    <string name="qrcode_audio_text">聴いてみる</string>
+    <string name="qrcode_email">メール</string>
+    <string name="qrcode_geo">位置情報</string>
+    <string name="qrcode_geo_text">マップ</string>
+    <string name="qrcode_layer">Layer</string>
+    <string name="qrcode_sms">SMS</string>
+    <string name="qrcode_tel">電話</string>
+    <string name="qrcode_unknown">不明</string>
+    <string name="qrcode_vcard">vCard</string>
+    <string name="qrcode_video">ビデオ</string>
+    <string name="qrcode_video_text">観る</string>
+    <string name="qrcode_web">WWW</string>
+    <string name="qrcode_googleplay">Google play</string>
+    <string name="qrcode_unsuported_action">サポート外のアクションです</string>
+
+    <!-- Share on Facebook -->
+    <string name="share_on_facebook_write_post">投稿する</string>
+    <string name="share_on_facebook_post">投稿する</string>
+    <string name="share_on_facebook_whats_on_your_mind">今どんな気持ち？</string>
+    <string name="share_on_facebook_share_link">シェアリンク</string>
+    <string name="share_on_facebook_share">共有</string>
+    <string name="share_on_facebook_add_your_thougth">何か書く</string>
+    <string name="share_generic_message">#layarでこのリンクをさがす</string>
+    <string name="share_via">共有</string>
+
+    <!-- Tips -->
+    <string name="tip_point_back">戻る</string>
+    <string name="tip_point_back_hint"></string>
+    <string name="tip_nothing_found">みつかりません</string>    
+    <string name="tip_nothing_found_hint_1" formatted="false"><b>ヒント</b>%appname% にLayarのロゴかQRコードが印刷されているか確認してください</string>
+    <string name="tip_nothing_found_hint_2"><b>ヒント:</b>ぶれないように端末を固定してください</string>
+    <string name="tip_nothing_found_hint_3" formatted="false"><b>ヒント</b> %appname%にLayarのロゴがなかったら？QRコードを試してみてください</string>
+    <string name="tip_nothing_found_hint_4" formatted="false"><b>ヒント</b> %appname% lと一緒に画像をスキャンするだけ</string>
+    <string name="tip_nothing_found_hint_5"><b>ヒント:</b>あなたのまわりを見てみたい？ロケーション型Layarを使ってみよう</string>
+    <string name="tap_to_dismiss">削除する</string>
+    
+    <string name="tip_detach_gestures_flat">2本指で操作するとズームできます</string>
+    <string name="tip_detach_gestures_3d">2本指で操作すればズーム・回転します</string>
+
+    <!-- Take screenshot -->
+    <string name="tap_to_take_screenshot">タップしてスクリーンショットをとる</string>
+    <string name="cant_take_screenshot">スクリーンショットがとれません</string>
+    <string name="screenshot_saved">写真保存</string>
+    
+    <string name="map_view">マップビューに切り替える</string>
+    <string name="refresh_layer">更新</string>
+    <string name="ar_view">ARビューに切り替える</string>
+    <string name="share">共有</string>
+    <string name="filters">フィルター</string>
+    <string name="layer_info">各種情報</string>
+    <string name="layer_actions">アクション</string>
+    <string name="layer_photo">写真を撮る</string>
+    
+    <string name="detach_content">ポップアウトして続ける</string>
+    <string name="detach_tip">アイテムに再びカメラをかざすか下のポップアウトをタップすれば、コンテンツをもう一度見れます</string>
+    
+    
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <LinearLayout android:id="@+id/share_on_facebook_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        >
+        
+	    <TextView android:id="@+id/share_on_facebook_window_title"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:text="@string/share_on_facebook_write_post"
+	        android:textColor="#FFFFFF"
+	        android:textSize="20sp"
+	        android:padding="10dp"
+	        android:background="#586eaa"
+	        android:layout_weight="1"
+	        android:gravity="center_vertical"
+	        />
+	    
+	    <View android:id="@+id/share_on_facebook_title_divider"
+	        android:layout_width="1dp"
+	        android:layout_height="match_parent"
+	        android:background="#485988"
+	        />
+	    
+	    <Button android:id="@+id/share_on_facebook_post"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:text="@string/share_on_facebook_post"
+	        android:textColor="@color/share_on_facebook_post_button_text"
+	        android:padding="10dp"
+	        android:background="@drawable/layar_share_on_facebook_post_button_background"
+	        android:onClick="post"
+	        android:enabled="false"
+	        />
+        
+    </LinearLayout>
+
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        />
+    
+	<RelativeLayout android:id="@+id/share_on_facebook_message_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        >
+
+	    <ImageView android:id="@+id/share_on_facebook_user_photo"
+	        android:layout_width="60dp"
+	        android:layout_height="60dp" 
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentLeft="true"
+	        android:background="#11586eaa"
+	        android:scaleType="centerCrop"
+	        />
+	    
+	    <EditText android:id="@+id/share_on_facebook_message"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_toRightOf="@+id/share_on_facebook_user_photo"
+	        android:background="@android:color/transparent"
+	        android:layout_marginLeft="10dp"
+	        android:hint="@string/share_on_facebook_whats_on_your_mind"
+	        android:inputType="text|textCapSentences|textAutoComplete|textMultiLine"
+	        android:enabled="false"
+	        />
+	    
+	    <ImageView android:id="@+id/share_on_facebook_image_to_share"
+	        android:layout_width="90dp"
+	        android:layout_height="90dp"
+	        android:layout_margin="10dp"
+	        android:layout_below="@+id/share_on_facebook_message"
+	        android:layout_toRightOf="@+id/share_on_facebook_user_photo"
+	        android:background="#11586eaa"
+	        android:scaleType="centerCrop"
+	        android:visibility="gone"
+	        />	    
+	</RelativeLayout>
+    
+	<LinearLayout android:id="@+id/share_on_facebook_link_layout" 
+	        android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:background="#11586eaa"
+		    android:layout_marginLeft="10dp"
+		    android:layout_marginRight="10dp"
+		    android:layout_marginBottom="10dp"
+		    android:padding="10dp"
+		    android:layout_gravity="center_vertical"
+		    android:visibility="visible"
+	    >
+
+   		<TextView android:id="@+id/share_on_facebook_link_title" 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:textColor="#666666"
+		    android:textStyle="bold"
+		    android:textSize="12sp"
+		    android:singleLine="true"
+		    android:ellipsize="end"
+		    android:gravity="center_vertical"
+		    />
+	    	
+		<TextView android:id="@+id/share_on_facebook_link" 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:textColor="#888888"
+		    android:textSize="12sp"
+		    android:singleLine="true"
+		    android:ellipsize="end"
+		    android:gravity="center_vertical"
+		    />
+
+		<TextView android:id="@+id/share_on_facebook_link_description" 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:textColor="#888888"
+		    android:textSize="12sp"
+		    android:maxLines="3"
+		    android:ellipsize="end"
+		    android:gravity="center_vertical"
+		    android:layout_marginTop="5dp"
+		    />
+		
+		</LinearLayout>
+</LinearLayout>

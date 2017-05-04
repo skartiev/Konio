@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="country_code_default">AUTO</string>
+	<string name="distance_unit_default">METRIC</string>
+</resources>

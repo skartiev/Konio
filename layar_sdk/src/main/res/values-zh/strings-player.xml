@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Please do not translate the string names and the placeholders (%%) -->
+
+
+    <!-- General Strings -->
+    <string name="ok">好的</string>
+    <string name="yes">确认</string>
+    <string name="no">取消</string>
+    <string name="apply">应用</string>
+    <string name="save">保存</string>
+    <string name="use">使用</string>
+    <string name="cancel">取消</string>
+    <string name="continue_">继续</string>
+    <string name="layer">图层</string>
+    <string name="action_scan">扫描</string>
+    <string name="action_share">分享</string>
+    <string name="ellipsis">...</string>
+
+    <!-- Miscellaneous errors -->
+    <string name="no_connection_title">没有网络连接</string>
+    <string name="no_connection_message">没有网络，请查看您的网络连接是否正确。</string>
+    <string name="no_connection_settings">设置</string>
+    <string name="toast_gps_disabled">GPS已关闭</string>
+    <string name="openGPSSettingPrompt">GPS已关闭，您想要开启它吗？</string>
+    <string name="error_no_connection">无法连接</string>
+    <string name="error_no_active_connection">没有网络连接</string>
+    <string name="unable_to_connect">无法连接到Layar服务器，请稍后重试。</string>
+    <string name="error_out_of_memory">没有足够的内存。请关闭其他应用并重试。</string>
+    <string name="error_layer_deleted">这个图层已经不存在了</string>
+    <string name="error_maintenance">我们正对Layar系统进行维护，我们会尽快恢复正常服务。</string>
+    <string name="error_maintenance_title">系统维护中...</string>
+    <string name="error_location_provider_title">Layar需要您的地理位置信息</string>
+    <string name="error_location_provider_message">请打开您设备设置菜单下的位置服务选项来浏览基于地理位置的图层</string>
+    <string name="error_oauth_timestamp_invalid">您的日期或者时间有误。请查看您的设备系统设置然后重试。</string>
+    <string name="error_oauth_verification_failed">校验发生了错误。请稍后重试。</string>
+    <string name="error_player_expired">这个应用与Layar平台的连接已过有效期</string>
+
+    <!-- Vision AR View -->
+    <string name="vision_no_content_title">空白页面</string>
+    <string name="vision_no_content_text">扫描另一张图片来浏览更多内容</string>
+    <string name="vision_scan">点击屏幕来扫描</string>
+    <string name="unsupported_content_title">不支持的内容</string>
+    <string name="unsupported_content_description">这类信息与安装的Layar版本不兼容</string>
+
+    <!-- View Buttons -->
+    <string name="view_map">地图</string>
+    <string name="view_list">列表</string>
+
+    <!-- Menu Options -->
+    <string name="menu_filter">@string/custom_filter_layer_settings</string>
+    <string name="menu_refresh">刷新</string>
+    <string name="menu_layer_info">图层信息</string>
+    <string name="menu_screenshot">屏幕截图</string>
+    <string name="menu_goto_ar">实景视图</string>
+
+    <!-- Auto Trigger Options -->
+    <string name="trigger_available">这个物体有一个可以自动触发的动作。</string>
+    <string name="trigger_do_launch_action">运行</string>
+    <string name="trigger_dont_launch_action">不运行</string>
+
+    <!-- Action Chooser -->
+    <string name="action_chooser_title">选择应用</string>
+
+    <!-- Sharing -->
+    <string name="share_dialog_title">分享方式</string>
+    <string name="share_chooser_title">分享这个图层</string>
+    <string name="share_layer">分享图层</string>
+    <!-- supressed -->
+    <string name="share_screenshot">分享屏幕截图</string>
+    <string name="share_success_message">已成功分享！</string>
+    <string name="share_fail">在分享时发生错误！</string>
+    <string name="layer_details_subject" formatted="false">快来看看#layar上的%title% </string>
+    <string name="layer_details_body" formatted="false">我正在用我的%android% 上的Layar免费应用并想分享这个我新发现的图层！
+\n\n%name%
+\n\n%description%
+\n发布人: %publisher%
+\n链接: %link%
+\n通过http://get.layar.com在苹果或者安卓上下载免费的Layar应用</string>
+    <string name="share_status">分享状态</string>
+
+    <!-- POI actions -->
+    <string name="poi_action_directions">带我到那儿</string>
+    <string name="poi_action_lock">在视图中锁定</string>
+    <string name="poi_action_unlock">在视图中解锁</string>
+    <string name="poi_action_more">更多</string>
+    
+    <!-- Audio -->
+    <string name="audio_loading">加载音频中</string>
+    <string name="audio_error">无法打开这个音频文件。</string>
+    <string name="audio_error_title">无法播放音频</string>
+
+    <!-- Video -->
+    <string name="video_loading">加载视频中</string>
+
+    <!-- DetailsView -->
+
+    <string name="copy_link">复制链接</string>
+    <string name="copy_message">链接已复制</string>
+    <string name="copy_message_fail">没有可复制的内容</string>
+
+    <!-- Status -->
+    <string name="status_waiting_location">等待获取地理位置中...</string>
+    <string name="status_authentication_required">登陆来使用这个图层</string>
+
+    <!-- Status results -->
+    <string name="status_no_results_found">未找到结果</string>
+    <string name="status_1_result_found" formatted="false">找到了一个兴趣点</string>
+    <string name="status_x_results_found" formatted="false">找到了%progress%个兴趣点</string>
+    <string name="status_no_content_available">没有可用的内容</string>
+    <string name="status_something_went_wrong">出错了。请重试！</string>
+
+    <!-- Progress -->
+    <string name="progress_loading">加载中...</string>
+    <string name="progress_processing">正在处理中...</string>
+    <string name="progress_analyzing">分析中...</string>
+    <string name="progress_getting_results">获取结果中...</string>
+    <string name="progress_getting_content">获取内容中...</string>
+
+    <!-- Social stuff -->
+    <string name="facebook">脸书</string>
+    <string name="twitter">推特</string>
+    <string name="developer">开发者</string>
+    <string name="email">电子邮箱</string>
+
+    <!-- Feedback -->
+    <string name="layer_report_problem">报告一个错误</string>
+
+    <!-- POIDetails strings -->
+    <string name="spot_actions">兴趣点动作</string>
+
+    <!-- Layer custom filters -->
+    <string name="custom_filter_range_settings">范围</string>
+    <string name="custom_filter_range_text" formatted="false">显示在%value%范围内的兴趣点</string>
+    <string name="custom_filter_layer_settings">图层设置</string>
+
+    <!-- DetailsView activity -->
+    <string name="leaving_message">退出Layar:请按后退键返回！</string>
+    <string name="download_message">您确信要下载这个PDF文件吗？</string>
+    <string name="open_in_browser">在浏览器里打开</string>
+    <string name="download_layar_title">下载Layar</string>
+    <string name="download_layar_description">您需要下载免费Layar浏览器来查看这些内容</string>
+    <string name="download_layar_button">下载Layar</string>
+
+    <!-- Problem reporting -->
+    <string name="multiple_login_email_address">support@layar.com</string>
+    <string name="layer_report_problem_body" formatted="false">我在%layername%发现了一个错误。请查看！</string>
+    <string name="qrcode_audio">音频</string>
+    <string name="qrcode_audio_text">马上聆听</string>
+    <string name="qrcode_email">电子邮箱</string>
+    <string name="qrcode_geo">位置</string>
+    <string name="qrcode_geo_text">在地图上浏览</string>
+    <string name="qrcode_layer">图层</string>
+    <string name="qrcode_sms">短信</string>
+    <string name="qrcode_tel">呼叫</string>
+    <string name="qrcode_unknown">未知</string>
+    <string name="qrcode_vcard">电子名片</string>
+    <string name="qrcode_video">视频</string>
+    <string name="qrcode_video_text">现在就欣赏</string>
+    <string name="qrcode_web">WWW （万维网）</string>
+    <string name="qrcode_googleplay">谷歌应用市场</string>
+    <string name="qrcode_unsuported_action">不支持的动作</string>
+
+    <!-- Share on Facebook -->
+    <string name="share_on_facebook_write_post">写信息</string>
+    <string name="share_on_facebook_post">提交</string>
+    <string name="share_on_facebook_whats_on_your_mind">您在想什么？</string>
+    <string name="share_on_facebook_share_link">分享链接</string>
+    <string name="share_on_facebook_share">分享</string>
+    <string name="share_on_facebook_add_your_thougth">添加您的想法</string>
+    <string name="share_generic_message">我在#layar发现了这个链接</string>
+    <string name="share_via">分享到..</string>
+
+    <!-- Tips -->
+    <string name="tip_point_back">重新对准图片来收看信息</string>
+    <string name="tip_point_back_hint"></string>
+    <string name="tip_nothing_found">没有找到任何信息</string>    
+    <string name="tip_nothing_found_hint_1" formatted="false"><b>提示:</b>请确定您正在扫描印有%appname%图标或者二维码的图片</string>
+    <string name="tip_nothing_found_hint_2"><b>提示:</b>在良好的光线下拿稳您的手机设备</string>
+    <string name="tip_nothing_found_hint_3" formatted="false"><b>提示:</b>在图片上没有找到%appname% 图标？试试扫描二维码</string>
+    <string name="tip_nothing_found_hint_4" formatted="false"><b>提示:</b>请只扫描有%appname%图标的图片</string>
+    <string name="tip_nothing_found_hint_5"><b>提示:</b>需要了解您附近的环境？打开一个地理图层吧！</string>
+    <string name="tap_to_dismiss">点击取消</string>
+    
+    <string name="tip_detach_gestures_flat">用两个手指缩放大小</string>
+    <string name="tip_detach_gestures_3d">用两个手指缩放大小和旋转</string>
+
+    <!-- Take screenshot -->
+    <string name="tap_to_take_screenshot">点击来获取截屏</string>
+    <string name="cant_take_screenshot">无法在这个试图下获取截屏</string>
+    <string name="screenshot_saved">截图已加到图片库里。</string>
+    
+    <string name="map_view">转换到地图视图</string>
+    <string name="refresh_layer">刷新</string>
+    <string name="ar_view">转换到增强现实视图</string>
+    <string name="share">分享</string>
+    <string name="filters">过滤设置</string>
+    <string name="layer_info">图层信息</string>
+    <string name="layer_actions">图层动作</string>
+    <string name="layer_photo">拍照</string>
+    
+    <string name="detach_content">弹出视图继续</string>
+    <string name="detach_tip">重新对准扫描对象，或者点击下方弹出视图浏览。</string>
+    
+    
+</resources>

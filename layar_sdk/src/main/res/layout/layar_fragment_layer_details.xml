@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@null" >
+
+    <RelativeLayout
+        android:id="@+id/layer_header"
+        android:layout_width="fill_parent"
+        android:layout_height="80dip"
+        android:background="@color/detail_background"
+        android:clickable="false"
+        android:gravity="center_vertical"
+        android:visibility="invisible" >
+
+        <RelativeLayout
+            android:id="@+id/layer_list_icongroup"
+            android:layout_width="66dip"
+            android:layout_height="66dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:background="@null" >
+
+            <ImageView
+                android:id="@+id/layer_list_icon"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@null"
+                android:maxHeight="66dip"
+                android:maxWidth="66dip"
+                android:scaleType="centerInside" />
+
+            <ProgressBar
+                android:id="@+id/throbber"
+                style="@style/Throbber.Black"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/info_area"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/layer_list_icongroup"
+            android:background="@null"
+            android:paddingRight="2dip"
+            android:paddingTop="6dip" >
+
+            <TextView
+                android:id="@+id/layer_list_publisher"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignWithParentIfMissing="true"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:textColor="@color/layerlist_text"
+                android:textSize="12dip"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/layer_list_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_below="@id/layer_list_publisher"
+                android:ellipsize="marquee"
+                android:lines="2"
+                android:textColor="@color/default_text_color"
+                android:textSize="16dip"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/layer_list_desc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/layer_list_title"
+                android:layout_below="@id/layer_list_title"
+                android:ellipsize="marquee"
+                android:maxLines="2"
+                android:textColor="@color/default_text_color"
+                android:textSize="12dip"
+                android:typeface="sans" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linkBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="8dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/layer_url_text"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/copy_link_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/copy_link"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/shadow"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@id/layer_header"
+        android:background="@drawable/layer_details_divider"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/layer_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="10dip"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_above="@id/linkBar"
+        android:layout_below="@id/shadow"
+        android:background="#FFFF"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="6dip"
+            android:paddingRight="6dip" >
+
+            <WebView
+                android:id="@+id/layer_description"
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:scrollbars="none" />
+
+            <ImageView
+                android:id="@+id/layer_screenshot"
+                android:layout_width="fill_parent"
+                android:layout_height="200dip"
+                android:background="@null"
+                android:padding="6dip"
+                android:scaleType="fitCenter"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_above="@id/linkBar"
+        layout="@layout/layar_view_divider" />
+
+</RelativeLayout>

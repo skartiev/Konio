@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:mContext="com.zuzex.konio.Fragments.MainFragment"
+    android:gravity="center_vertical|center_horizontal">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:id="@+id/logoImage"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Scan code"
+        android:id="@+id/scan_button"
+        android:visibility="gone"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:id="@+id/test_notify"
+        android:text="Test notify"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:id="@+id/test_pay_popup"
+        android:text="Show pay popup"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:id="@+id/toggle_ringing"
+        android:text="Scan Devices"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Layar"
+        android:id="@+id/layar_button"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

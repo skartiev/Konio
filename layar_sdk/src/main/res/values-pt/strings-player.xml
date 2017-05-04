@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Please do not translate the string names and the placeholders (%%) -->
+
+
+    <!-- General Strings -->
+    <string name="ok">Ok</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="apply">Aplicar</string>
+    <string name="save">Guardar</string>
+    <string name="use">Usar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="continue_">Continuar</string>
+    <string name="layer">Layer</string>
+    <string name="action_scan">Scan</string>
+    <string name="action_share">Partilhar</string>
+    <string name="ellipsis">...</string>
+
+    <!-- Miscellaneous errors -->
+    <string name="no_connection_title">Sem conexão à internet</string>
+    <string name="no_connection_message">Sem conexão à internet. Verifique a sua conexão e tente novamente.</string>
+    <string name="no_connection_settings">Definições</string>
+    <string name="toast_gps_disabled">GPS desligado</string>
+    <string name="openGPSSettingPrompt">GPS desligado, pretende ligar?</string>
+    <string name="error_no_connection">Não é possível estabelecer ligação.</string>
+    <string name="error_no_active_connection">Sem conexão à internet</string>
+    <string name="unable_to_connect">Não é possível estabelecer ligação ao servidor, tente mais tarde.</string>
+    <string name="error_out_of_memory">Sem memória suficiente. Feche outras aplicações e tente novamente.</string>
+    <string name="error_layer_deleted">Esta layer já não está disponível.</string>
+    <string name="error_maintenance">Estamos a fazer manutenção nos servidores da Layar, o servido vai ser reposto dentro em breve.</string>
+    <string name="error_maintenance_title">Em manutenção.</string>
+    <string name="error_location_provider_title">A Layar necessita de utilizar a sua localização</string>
+    <string name="error_location_provider_message">Para ver Geo Layers, por favor ative os Serviços de Localização para a aplicação Layar nas Definições do seu dispositivo. </string>
+    <string name="error_oauth_timestamp_invalid">A sua data está incorreta. Verifique por favor as suas Definições e tente de novo</string>
+    <string name="error_oauth_verification_failed">Oops! A verificação falhou nos nossos servidores. Por favor tente de novo mais tarde.</string>
+    <string name="error_player_expired">O acesso desta aplicação à plataforma Layar expirou.</string>
+
+    <!-- Vision AR View -->
+    <string name="vision_no_content_title">Página vazia</string>
+    <string name="vision_no_content_text">Faça scan noutra página para ver mais conteúdos.</string>
+    <string name="vision_scan">Toque no ecrã para fazer scan</string>
+    <string name="unsupported_content_title">Conteúdo não suportado</string>
+    <string name="unsupported_content_description">Este conteúdo não é suportado pela actual versão da Layar</string>
+
+    <!-- View Buttons -->
+    <string name="view_map">Mapa</string>
+    <string name="view_list">Lista</string>
+
+    <!-- Menu Options -->
+    <string name="menu_filter">@string/custom_filter_layer_settings</string>
+    <string name="menu_refresh">Actualizar</string>
+    <string name="menu_layer_info">Informação</string>
+    <string name="menu_screenshot">Screenshot</string>
+    <string name="menu_goto_ar">Vista de câmera</string>
+
+    <!-- Auto Trigger Options -->
+    <string name="trigger_available">Este objeto tem uma ação automática atribuída.</string>
+    <string name="trigger_do_launch_action">Iniciar</string>
+    <string name="trigger_dont_launch_action">Não iniciar</string>
+
+    <!-- Action Chooser -->
+    <string name="action_chooser_title">Escolher aplicação</string>
+
+    <!-- Sharing -->
+    <string name="share_dialog_title">Método de partilha</string>
+    <string name="share_chooser_title">Partilhar esta layer</string>
+    <string name="share_layer">Partilhar esta layer</string>
+    <!-- supressed -->
+    <string name="share_screenshot">Partilhar screenshot</string>
+    <string name="share_success_message">Patilha efetuada com sucesso!</string>
+    <string name="share_fail">Houve um problema com a partilha</string>
+    <string name="layer_details_subject" formatted="false">Veja já %title% na #layar</string>
+    <string name="layer_details_body" formatted="false">Estou a usar a aplicação gratuita Layar no meu %android% e gostaria de partilhar esta layer que descobri!
+\n\n%name%
+\n\n%description%
+\nPublished by: %publisher%
+\nLink: %link%
+\nSee Download da aplicação gratuita Layar para iPhone ou Android em http://get.layar.com</string>
+    <string name="share_status">Partilhar</string>
+
+    <!-- POI actions -->
+    <string name="poi_action_directions">Leva-me lá!</string>
+    <string name="poi_action_lock">Bloquear vista</string>
+    <string name="poi_action_unlock">Desbloquear vista</string>
+    <string name="poi_action_more">Mais</string>
+    
+    <!-- Audio -->
+    <string name="audio_loading">A carregar audio...</string>
+    <string name="audio_error">Este ficheiro não pode ser reproduzido.</string>
+    <string name="audio_error_title">O ficheiro audio não pode ser reproduzido.</string>
+
+    <!-- Video -->
+    <string name="video_loading">A carregar vídeo...</string>
+
+    <!-- DetailsView -->
+
+    <string name="copy_link">Copiar link</string>
+    <string name="copy_message">O link foi copiado</string>
+    <string name="copy_message_fail">Não existe nada para copiar</string>
+
+    <!-- Status -->
+    <string name="status_waiting_location">Aguardando sinal de GPS</string>
+    <string name="status_authentication_required">Autentique-se para usar a Layar</string>
+
+    <!-- Status results -->
+    <string name="status_no_results_found">Não foram encontrados resultados</string>
+    <string name="status_1_result_found" formatted="false">1 ponto de interesse encontrado</string>
+    <string name="status_x_results_found" formatted="false">%progress% pontos de interesse encontrados</string>
+    <string name="status_no_content_available">Sem conteúdo disponível</string>
+    <string name="status_something_went_wrong">Erro. Tente mais tarde por favor</string>
+
+    <!-- Progress -->
+    <string name="progress_loading">A carregar...</string>
+    <string name="progress_processing">A processar...</string>
+    <string name="progress_analyzing">A analizar...</string>
+    <string name="progress_getting_results">A recolher resultados...</string>
+    <string name="progress_getting_content">A recolher conteúdos...</string>
+
+    <!-- Social stuff -->
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter </string>
+    <string name="developer">Programador</string>
+    <string name="email">E-mail</string>
+
+    <!-- Feedback -->
+    <string name="layer_report_problem">Reportar problema</string>
+
+    <!-- POIDetails strings -->
+    <string name="spot_actions">Acções spot</string>
+
+    <!-- Layer custom filters -->
+    <string name="custom_filter_range_settings">Alcance</string>
+    <string name="custom_filter_range_text" formatted="false">Apresentar spots entre %value%</string>
+    <string name="custom_filter_layer_settings">Definições Layar</string>
+
+    <!-- DetailsView activity -->
+    <string name="leaving_message">Abandonar a Layar: Pressione o botão voltar para regressar!</string>
+    <string name="download_message">Tem certeza de que deseja fazer o download deste PDF?</string>
+    <string name="open_in_browser">Abrir no browser</string>
+    <string name="download_layar_title">Download Layar</string>
+    <string name="download_layar_description">Necessita fazer o download gratuito da aplicação Layar para ver este conteúdo</string>
+    <string name="download_layar_button">Fazer o download da Layar</string>
+
+    <!-- Problem reporting -->
+    <string name="multiple_login_email_address">support@layar.com</string>
+    <string name="layer_report_problem_body" formatted="false">Eu reparei num problema em %layername%. Vejam o que se passa pf!</string>
+    <string name="qrcode_audio">Audio</string>
+    <string name="qrcode_audio_text">Ouvir agora</string>
+    <string name="qrcode_email">E-mail</string>
+    <string name="qrcode_geo">Localização</string>
+    <string name="qrcode_geo_text">Ver no mapa</string>
+    <string name="qrcode_layer">Layer</string>
+    <string name="qrcode_sms">SMS </string>
+    <string name="qrcode_tel">Chamar</string>
+    <string name="qrcode_unknown">Desconhecido</string>
+    <string name="qrcode_vcard">vCard</string>
+    <string name="qrcode_video">Vídeo</string>
+    <string name="qrcode_video_text">Ver agora</string>
+    <string name="qrcode_web">www</string>
+    <string name="qrcode_googleplay">Google play</string>
+    <string name="qrcode_unsuported_action">Ação não suportada</string>
+
+    <!-- Share on Facebook -->
+    <string name="share_on_facebook_write_post">Escrever post</string>
+    <string name="share_on_facebook_post">Publicar</string>
+    <string name="share_on_facebook_whats_on_your_mind">O que está na sua mente?</string>
+    <string name="share_on_facebook_share_link">Partilhar link</string>
+    <string name="share_on_facebook_share">Partilhar</string>
+    <string name="share_on_facebook_add_your_thougth">Adicione as suas refleções</string>
+    <string name="share_generic_message">Encontrei este link na #layar</string>
+    <string name="share_via">Partilhar via</string>
+
+    <!-- Tips -->
+    <string name="tip_point_back">Aponte novamente para ver o conteúdo</string>
+    <string name="tip_point_back_hint"></string>
+    <string name="tip_nothing_found">Nada foi encontrado</string>    
+    <string name="tip_nothing_found_hint_1" formatted="false"><b>Dica:</b> Assegure-se de que está a fazer scan de itens com logotipo da app %appname% ou de QR codes</string>
+    <string name="tip_nothing_found_hint_2"><b>Dica:</b> Mantenha s câmara do seu dispositivo estável e sob boas condições de luminosidade.</string>
+    <string name="tip_nothing_found_hint_3" formatted="false"><b>Dica:</b> Sem logo da Layar %appname%  nesta página? Tente um QR code!</string>
+    <string name="tip_nothing_found_hint_4" formatted="false"><b>Dica:</b> Faça scan apenas em itens com o logotipo da %appname% </string>
+    <string name="tip_nothing_found_hint_5"><b>Dica:</b> A fazer scan das redondezas? Abrir uma Geo Layer</string>
+    <string name="tap_to_dismiss">Pressione para ignorar</string>
+    
+    <string name="tip_detach_gestures_flat">Faça zoom com os dois dedos</string>
+    <string name="tip_detach_gestures_3d">Rode e faça zoom com os dois dedos</string>
+
+    <!-- Take screenshot -->
+    <string name="tap_to_take_screenshot">Pressione para tirar screenshot</string>
+    <string name="cant_take_screenshot">Não é possivel tirar screenshot com esta vista</string>
+    <string name="screenshot_saved">O screenshot foi adicionado à Galeria de Fotografias</string>
+    
+    <string name="map_view">Alterar para vista no mapa</string>
+    <string name="refresh_layer">Actualizar</string>
+    <string name="ar_view">Alterar para a vista AR</string>
+    <string name="share">Partilhar</string>
+    <string name="filters">Filtros</string>
+    <string name="layer_info">Informação</string>
+    <string name="layer_actions">Ações da camada</string>
+    <string name="layer_photo">Tirar uma foto</string>
+    
+    <string name="detach_content">Fazer pop out para continuar</string>
+    <string name="detach_tip">Aponte novamente para o item, ou pressione aqui por baixo para ver o conteúdo</string>
+    
+    
+</resources>

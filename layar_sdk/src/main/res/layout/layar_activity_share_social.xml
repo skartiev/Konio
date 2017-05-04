@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp" >
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/action_share" />
+
+    <RelativeLayout
+        android:id="@+id/messageArea"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip" >
+
+        <include
+            android:id="@+id/message_input_area"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/layar_view_message_input" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageShareScreenIcon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/shareButton"
+        android:layout_below="@id/messageArea"
+        android:scaleType="centerInside" />
+
+</RelativeLayout>

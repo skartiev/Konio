@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="256px"
+    android:layout_height="256px"
+    android:padding="45px"
+    android:background="@drawable/layar_qrcode_background">
+   
+    <TextView android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:maxLines="12"
+        android:textColor="#646469"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam condimentum placerat lectus, tincidunt sollicitudin lorem ornare eu. Mauris vel quam massa. Donec quis faucibus mi. Integer consectetur iaculis orci, et aliquam justo scelerisque eu. Nulla ut diam pulvinar sapien adipiscing vulputate. Cras nec elit diam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras nec lacus vitae elit luctus dictum et sit amet elit. Vestibulum non arcu velit. Donec at odio sit amet neque vehicula laoreet. Cras tincidunt varius arcu nec sagittis. Donec scelerisque, turpis vitae rutrum fringilla, dolor velit sagittis mauris, a blandit quam velit in nibh. Integer semper cursus magna ac elementum. Suspendisse urna dolor, scelerisque ac elementum non, dignissim sit amet ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin consequat interdum urna vitae auctor."
+        android:textSize="12px" />     
+
+</RelativeLayout>

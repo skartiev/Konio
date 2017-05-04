@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Layar.Theme.Default" parent="@android:style/Theme.Light" />
+
+    <style name="LayarTheme.Black" parent="android:Theme.Black">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:listViewStyle">@style/BaseListView</item>
+        <item name="android:windowTitleBackgroundStyle">@style/SectionHeaderText</item>
+        <item name="android:spinnerStyle">@style/SpinnerLayar</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemLayar</item>
+        <item name="android:progressBarStyleHorizontal">@style/Layar.ProgressBar.Horizontal</item>
+    </style>
+
+    <style name="LayarTheme.Light" parent="android:Theme.Light">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:listViewStyle">@style/BaseListView</item>
+        <item name="android:windowTitleBackgroundStyle">@style/SectionHeaderText</item>
+        <item name="android:progressBarStyleHorizontal">@style/Layar.ProgressBar.Horizontal</item>
+    </style>
+
+    <style name="LayarTheme" parent="LayarTheme.Light" />
+
+    <style name="LayarTitleTheme" parent="@style/LayarTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="FullScreenTheme" parent="LayarTitleTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="FilterTheme" parent="Layar.Theme.Default">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewLayar</item>
+        <item name="android:dropDownSpinnerStyle">@style/SpinnerLayar.DropDown</item>
+        <item name="android:editTextStyle">@style/EditTextLayar</item>
+        <item name="android:buttonStyle">@style/ButtonLayar</item>
+        <item name="android:imageButtonStyle">@style/ImageButtonLayar</item>
+        <item name="android:checkboxStyle">@style/CheckBoxLayar</item>
+        <item name="android:radioButtonStyle">@style/RadioButtonLayar</item>
+        <item name="android:progressBarStyleHorizontal">@style/Layar.ProgressBar.Horizontal</item>
+        <item name="android:seekBarStyle">@style/SeekBarLayar</item>
+    </style>
+
+    <style name="FilterTextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/default_text_color</item>
+    </style>
+
+    <style name="BiwDialogTheme" parent="android:Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/layar_transparency</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="SmartDialogTheme" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AudioSeekBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/layar_slider_background</item>
+        <item name="android:indeterminateDrawable">@drawable/layar_slider_background</item>
+        <item name="android:minHeight">19dip</item>
+        <item name="android:maxHeight">19dip</item>
+        <item name="android:thumb">@drawable/layar_btn_player_slider</item>
+        <item name="android:thumbOffset">0dip</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="BaseListView" parent="@android:style/Widget.ListView">
+        <item name="android:divider">@color/default_list_divider_color</item>
+        <item name="android:dividerHeight">1dip</item>
+        <item name="android:background">@color/default_list_bg_color</item>
+        <item name="android:cacheColorHint">@color/default_list_bg_color</item>
+        <item name="android:fadingEdge">none</item>
+    </style>
+
+    <style name="DefaultText" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/default_text_color</item>
+    </style>
+
+    <style name="TitleText" parent="@android:style/Widget.TextView">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textSize">14dip</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/default_text_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TabTitleText" parent="TitleText">
+        <item name="android:maxLines">2</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="DescriptionText" parent="@android:style/Widget.TextView">
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textSize">12dip</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/details_text_color</item>
+    </style>
+
+    <style name="DetailsText" parent="@android:style/Widget.TextView">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textSize">12dip</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/details_text_color</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- <item name="android:textStyle">bold</item> -->
+    <style name="SectionHeaderText" parent="@android:style/Widget.TextView">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/default_text_color</item>
+    </style>
+
+    <style name="Throbber" parent="@android:style/Widget.ProgressBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateDuration">1000</item>
+        <item name="android:minHeight">24dip</item>
+        <item name="android:maxHeight">32dip</item>
+        <item name="android:minWidth">24dip</item>
+        <item name="android:maxWidth">32dip</item>
+        <item name="android:indeterminateDrawable">@drawable/layar_throbber_light_x</item>
+    </style>
+
+    <style name="Throbber.Light" parent="@style/Throbber" />
+
+    <style name="Throbber.Black" parent="@style/Throbber">
+        <item name="android:indeterminateDrawable">@drawable/layar_throbber_dark_x</item>
+    </style>
+
+    <style name="CustomMenuDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@drawable/layar_menu_dropdown_panel_holo_light</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:listSelector">@color/button_highlight</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="CustomHomeLabel">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!-- Styles to make widgets look like in Holo theme -->
+    <style name="AutoCompleteTextViewLayar" parent="android:Widget.AutoCompleteTextView">
+        <item name="android:dropDownSelector">@drawable/layar_list_selector_holo_light</item>
+        <item name="android:background">@drawable/layar_edit_text_holo_light</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="EditTextLayar" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/layar_edit_text_holo_light</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="ButtonLayar" parent="android:Widget.Button">
+        <item name="android:background">@drawable/layar_btn_default_holo_light</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="ImageButtonLayar" parent="android:Widget.ImageButton">
+        <item name="android:background">@drawable/layar_btn_default_holo_light</item>
+    </style>
+
+    <style name="CheckBoxLayar" parent="android:Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/layar_btn_check_holo_light</item>
+    </style>
+
+    <style name="RadioButtonLayar" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/layar_btn_radio_holo_light</item>
+    </style>
+
+    <style name="Layar.ProgressBar.Horizontal" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/layar_progress_horizontal_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/layar_progress_indeterminate_horizontal_holo_light</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+
+    <style name="SeekBarLayar" parent="android:Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/layar_scrubber_progress_horizontal_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/layar_scrubber_progress_horizontal_holo_light</item>
+        <item name="android:minHeight">13dip</item>
+        <item name="android:maxHeight">13dip</item>
+        <item name="android:thumb">@drawable/layar_scrubber_control_selector_holo_light</item>
+        <item name="android:thumbOffset">16dip</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+    </style>
+
+    <style name="SpinnerLayar" parent="android:Widget.Spinner">
+        <item name="android:background">@drawable/layar_spinner_background_holo_light</item>
+        <item name="android:dropDownSelector">@drawable/layar_list_selector_holo_light</item>
+    </style>
+
+    <style name="SpinnerLayar.DropDown">
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+
+    <style name="SpinnerDropDownItemLayar" parent="android:Widget.DropDownItem.Spinner">
+        <item name="android:checkMark">@drawable/layar_btn_radio_holo_light</item>
+    </style>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_menu_button"
+    android:layout_width="60dp"
+    android:layout_height="48dp"
+    android:layout_gravity="right|top"
+    android:background="@drawable/layar_custom_menu_button"
+    android:clickable="true"
+    android:onClick="customMenuToggle" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/layar_ic_menu_ar_custom_overflow" />
+
+</RelativeLayout>

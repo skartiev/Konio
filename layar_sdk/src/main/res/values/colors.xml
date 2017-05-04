@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base colors -->
+    <color name="white">#f3f3f3</color>
+    <color name="black">#46484d</color>
+    <color name="grey">#a2a2a2</color>
+    <color name="holo_blue_bright">#aae2f3</color>
+    <color name="holo_blue_light">#029ac7</color>
+    <color name="layar_brand">#00afcd</color>
+    
+    <color name="layar_ab_color">#46484d</color>
+    <color name="layar_tip_color">#46484d</color>
+    
+    <!-- Used for pressed state of items in actionbar -->
+    <color name="semitransparent_white">#88ffffff</color>
+    
+    <!--  -->
+    <color name="background_nothing_found_dialog">#d0ffffff</color>
+    <color name="background_welcome_sequence">#f4f4f4</color>
+    <color name="accent">@color/holo_blue_light</color>
+    <color name="background_panel">@color/white</color>
+    <color name="primary_text">@color/black</color>
+    <color name="secondary_text">@color/grey</color>
+    <color name="layar_splash_color">@color/layar_brand</color>
+    <color name="layar_divider">@color/grey</color>
+    <color name="transparent">#00000000</color>
+    <color name="error">#ff0000</color>
+    <color name="default_text_color">@color/black</color>
+    <color name="default_text_color_light">#ffffff</color>
+    <color name="default_text_shadow_color">#ffffff</color>
+    <color name="details_text_color">@color/grey</color>
+    <color name="default_list_divider_color">@color/grey</color>
+    <color name="default_list_bg_color">@color/white</color>
+    <color name="buttons_bar_backcolor">@color/background_panel</color>
+    <color name="briefinfo_arrow">#88FFFFFF</color>
+    <color name="layerlist_text">@color/black</color>
+    <color name="detail_background">#eaeaea</color>
+    <color name="list_background">@color/white</color>
+    <color name="translucenter_dark">#bf000000</color>
+    <color name="poi_details_background">#f5f4f5</color>
+    <color name="vision_ar_overlay_bar">#80000000</color>
+    <color name="button_highlight">#ff33b5e5</color>
+    <color name="share_on_facebook_title">#586eaa</color>
+    <color name="share_on_facebook_button_pressed">#3d538f</color>
+    <color name="actionbar_text">@color/background_panel</color>
+    <color name="background_actionbar">@color/layar_ab_color</color>
+    <color name="background_actionbar_empty_space">#ececec</color>
+    <color name="background_actionbar_not_branded">#dddddd</color>
+    
+</resources>

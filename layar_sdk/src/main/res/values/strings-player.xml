@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Please do not translate the string names and the placeholders (%%) -->
+
+
+    <!-- General Strings -->
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="apply">Apply</string>
+    <string name="save">Save</string>
+    <string name="use">Use</string>
+    <string name="cancel">Cancel</string>
+    <string name="continue_">Continue</string>
+    <string name="layer">Layer</string>
+    <string name="action_scan">Scan</string>
+    <string name="action_share">Share</string>
+    <string name="ellipsis">...</string>
+
+    <!-- Miscellaneous errors -->
+    <string name="no_connection_title">No network connection</string>
+    <string name="no_connection_message">No network connection. Check your connection and try again</string>
+    <string name="no_connection_settings">Settings</string>
+    <string name="toast_gps_disabled">GPS disabled</string>
+    <string name="openGPSSettingPrompt">GPS disabled, do you want to enable it?</string>
+    <string name="error_no_connection">Unable to connect</string>
+    <string name="error_no_active_connection">No network connection</string>
+    <string name="unable_to_connect">Unable to connect to the Layar server, try again later</string>
+    <string name="error_out_of_memory">Not enough memory. Close other applications and try again.</string>
+    <string name="error_layer_deleted">This layer is not available anymore</string>
+    <string name="error_maintenance">We are doing some maintenance in the Layar servers, service will be restored soon</string>
+    <string name="error_maintenance_title">Down for maintenance</string>
+    <string name="error_location_provider_title">Layar needs your location </string>
+    <string name="error_location_provider_message">To view Geo Layers turn on Location in you device\'s settings menu. </string>
+    <string name="error_oauth_timestamp_invalid">Your date or time is incorrect. Check your device settings and try again.</string>
+    <string name="error_oauth_verification_failed">Verification failed on our servers. Try again later.</string>
+    <string name="error_player_expired">Access of this application to the Layar platform has expired.</string>
+
+    <!-- Vision AR View -->
+    <string name="vision_no_content_title">Empty page</string>
+    <string name="vision_no_content_text">Scan another page to see more content</string>
+    <string name="vision_scan">Tap screen to scan</string>
+    <string name="unsupported_content_title">Unsupported content</string>
+    <string name="unsupported_content_description">This content can\'t be viewed with your installed version of Layar.</string>
+
+    <!-- View Buttons -->
+    <string name="view_map">Map</string>
+    <string name="view_list">List</string>
+
+    <!-- Menu Options -->
+    <string name="menu_filter">@string/custom_filter_layer_settings</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_layer_info">Layer info</string>
+    <string name="menu_screenshot">Screenshot</string>
+    <string name="menu_goto_ar">Camera view</string>
+
+    <!-- Auto Trigger Options -->
+    <string name="trigger_available">This object has an automatic action assigned to it.</string>
+    <string name="trigger_do_launch_action">Launch</string>
+    <string name="trigger_dont_launch_action">Don\'t Launch</string>
+
+    <!-- Action Chooser -->
+    <string name="action_chooser_title">Choose application</string>
+
+    <!-- Sharing -->
+    <string name="share_dialog_title">Sharing method</string>
+    <string name="share_chooser_title">Share this layer</string>
+    <string name="share_layer">Share layer</string>
+    <!-- supressed -->
+    <string name="share_screenshot">Share screenshot</string>
+    <string name="share_success_message">Sharing is successfully done!</string>
+    <string name="share_fail">There was a problem while sharing!</string>
+    <string name="layer_details_subject" formatted="false">Check out %title% on #layar</string>
+    <string name="layer_details_body" formatted="false">I\'m using the free Layar app on my %android% and wanted to share this layer I discovered!
+				\n\n%name%
+				\n\n%description%
+				\nPublished by: %publisher%
+				\nLink: %link%
+				\nSee Download the free Layar app for iPhone or Android at http://get.layar.com</string>
+    <string name="share_status">Share status</string>
+
+    <!-- POI actions -->
+    <string name="poi_action_directions">Take me there</string>
+    <string name="poi_action_lock">Lock in view</string>
+    <string name="poi_action_unlock">Unlock in view</string>
+    <string name="poi_action_more">More</string>
+    
+    <!-- Audio -->
+    <string name="audio_loading">Loading audio</string>
+    <string name="audio_error">This audio file cannot be played.</string>
+    <string name="audio_error_title">Cannot play audio</string>
+
+    <!-- Video -->
+    <string name="video_loading">Loading video</string>
+
+    <!-- DetailsView -->
+
+    <string name="copy_link">Copy link</string>
+    <string name="copy_message">Link was copied</string>
+    <string name="copy_message_fail">There\'s nothing to copy</string>
+
+    <!-- Status -->
+    <string name="status_waiting_location">Waiting for location...</string>
+    <string name="status_authentication_required">Authenticate to use layer</string>
+
+    <!-- Status results -->
+    <string name="status_no_results_found">No results found</string>
+    <string name="status_1_result_found" formatted="false">1 point of interest found</string>
+    <string name="status_x_results_found" formatted="false">%progress% points of interest found</string>
+    <string name="status_no_content_available">No content available</string>
+    <string name="status_something_went_wrong">Something went wrong. Try again!</string>
+
+    <!-- Progress -->
+    <string name="progress_loading">Loading...</string>
+    <string name="progress_processing">Processing...</string>
+    <string name="progress_analyzing">Analyzing...</string>
+    <string name="progress_getting_results">Getting results...</string>
+    <string name="progress_getting_content">Getting content...</string>
+
+    <!-- Social stuff -->
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="developer">Developer</string>
+    <string name="email">Email</string>
+
+    <!-- Feedback -->
+    <string name="layer_report_problem">Report a problem</string>
+
+    <!-- POIDetails strings -->
+    <string name="spot_actions">Spot actions</string>
+
+    <!-- Layer custom filters -->
+    <string name="custom_filter_range_settings">Range</string>
+    <string name="custom_filter_range_text" formatted="false">Showing spots within %value%</string>
+    <string name="custom_filter_layer_settings">Layer settings</string>
+
+    <!-- DetailsView activity -->
+    <string name="leaving_message">Leaving Layar: Press back button to come back!</string>
+    <string name="download_message">Are you sure that you want to download this PDF?</string>
+    <string name="open_in_browser">Open in browser</string>
+    <string name="download_layar_title">Download Layar</string>
+    <string name="download_layar_description">You need to download the free Layar app to view this content</string>
+    <string name="download_layar_button">Get Layar</string>
+
+    <!-- Problem reporting -->
+    <string name="multiple_login_email_address">support@layar.com</string>
+    <string name="layer_report_problem_body" formatted="false">I spotted a problem in %layername%. Take a look at it!</string>
+    <string name="qrcode_audio">Audio</string>
+    <string name="qrcode_audio_text">Listen Now</string>
+    <string name="qrcode_email">Email</string>
+    <string name="qrcode_geo">Location</string>
+    <string name="qrcode_geo_text">View on Map</string>
+    <string name="qrcode_layer">Layer</string>
+    <string name="qrcode_sms">SMS</string>
+    <string name="qrcode_tel">Call</string>
+    <string name="qrcode_unknown">Unknown</string>
+    <string name="qrcode_vcard">vCard</string>
+    <string name="qrcode_video">Video</string>
+    <string name="qrcode_video_text">Watch Now</string>
+    <string name="qrcode_web">WWW</string>
+    <string name="qrcode_googleplay">Google play</string>
+    <string name="qrcode_unsuported_action">Unsupported action</string>
+
+    <!-- Share on Facebook -->
+    <string name="share_on_facebook_write_post">Write Post</string>
+    <string name="share_on_facebook_post">Post</string>
+    <string name="share_on_facebook_whats_on_your_mind">What\'s on your mind?</string>
+    <string name="share_on_facebook_share_link">Share Link</string>
+    <string name="share_on_facebook_share">Share</string>
+    <string name="share_on_facebook_add_your_thougth">Add your thoughts</string>
+    <string name="share_generic_message">I found this link in #layar</string>
+    <string name="share_via">Share via</string>
+
+    <!-- Tips -->
+    <string name="tip_point_back">Point back to see content</string>
+    <string name="tip_point_back_hint"></string>
+    <string name="tip_nothing_found">Nothing found</string>    
+    <string name="tip_nothing_found_hint_1" formatted="false"><b>Tip:</b> Make sure that you are scanning items with a %appname% logo or QR codes</string>
+    <string name="tip_nothing_found_hint_2"><b>Tip:</b> Hold your device steady under good light conditions</string>
+    <string name="tip_nothing_found_hint_3" formatted="false"><b>Tip:</b> No %appname% logo in the page? Try a QR code</string>
+    <string name="tip_nothing_found_hint_4" formatted="false"><b>Tip:</b> Only scan items with a %appname% logo</string>
+    <string name="tip_nothing_found_hint_5"><b>Tip:</b> Scanning your surroundings? Open a Geo Layer</string>
+    <string name="tap_to_dismiss">TAP TO DISMISS</string>
+    
+    <string name="tip_detach_gestures_flat">Zoom with two fingers</string>
+    <string name="tip_detach_gestures_3d">Zoom and rotate with two fingers</string>
+
+    <!-- Take screenshot -->
+    <string name="tap_to_take_screenshot">Tap to take screenshot</string>
+    <string name="cant_take_screenshot">Can\'t take screenshot in this view</string>
+    <string name="screenshot_saved">Screenshot was added to the photo Gallery</string>
+    
+    <string name="map_view">Switch to map view</string>
+    <string name="refresh_layer">Refresh</string>
+    <string name="ar_view">Switch to AR view</string>
+    <string name="share">Share</string>
+    <string name="filters">Filters</string>
+    <string name="layer_info">Layer info</string>
+    <string name="layer_actions">Layer actions</string>
+    <string name="layer_photo">Take photo</string>
+    
+    <string name="detach_content">Pop out to continue</string>
+    <string name="detach_tip">Point back at the item, or tap below to pop out and view the content</string>
+    
+    
+</resources>

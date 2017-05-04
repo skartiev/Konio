@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dip"
+    android:layout_height="100dip"
+    android:paddingTop="10dip"
+    android:paddingLeft="5dip"
+    android:paddingRight="9dip"
+    android:id="@+id/audioLayout"
+    >
+    
+    <ImageButton android:id="@+id/btnPlay"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:src="@android:drawable/ic_media_play"/>
+       
+    <SeekBar android:id="@+id/timeline"
+       style="?android:attr/progressBarStyleHorizontal"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/btnPlay"
+       android:layout_marginLeft="40dip"
+       android:layout_marginRight="40dip"/>
+       
+    <TextView android:id="@+id/currentPosistion"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="6dip"
+      android:layout_alignTop="@id/timeline"
+      android:layout_alignParentLeft="true"
+      android:gravity="left"
+      android:text=""/>
+      
+    <TextView android:id="@+id/duration"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="6dip"
+      android:layout_alignTop="@id/timeline"
+      android:layout_alignParentRight="true"
+      android:gravity="center"
+      android:text=""/>
+      
+   <ProgressBar android:id="@+id/progressLoading"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"/>
+      
+   <TextView android:id="@+id/status"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="6dip"
+      android:layout_below="@id/progressLoading"
+      android:layout_centerHorizontal="true"
+      android:gravity="center"
+      android:text="@string/audio_loading"/>
+    
+       
+</RelativeLayout>

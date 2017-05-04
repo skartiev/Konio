@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/audioLayout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/audio_player_height"
+    android:background="@color/translucenter_dark"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <ProgressBar
+        android:id="@+id/bufferingIndicator"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:indeterminate="true"
+        android:padding="8dp" />
+
+    <ImageButton
+        android:id="@+id/btnPlay"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@null"
+        android:padding="8dip"
+        android:src="@drawable/layar_btn_player_play_x" />
+
+    <SeekBar
+        android:id="@+id/timeline"
+        style="@style/AudioSeekBar"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:gravity="center_vertical"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:textColor="#ffffff"
+        android:textSize="12dip" />
+
+    <ImageButton
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:padding="8dip"
+        android:src="@drawable/layar_btn_player_close_x" />
+
+</LinearLayout>

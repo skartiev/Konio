@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_refresh_progress"
+        android:icon="@drawable/layar_ic_menu_refresh"
+        android:orderInCategory="94"
+        android:showAsAction="never"
+        android:title="@string/menu_refresh"/>
+    <item
+        android:id="@+id/menu_ar"
+        android:icon="@drawable/layar_ic_menu_camera"
+        android:orderInCategory="95"
+        android:showAsAction="never"
+        android:title="@string/menu_goto_ar"
+        android:visible="false"/>
+    <item
+        android:id="@+id/menu_map"
+        android:icon="@drawable/layar_ic_menu_mapmode"
+        android:orderInCategory="96"
+        android:showAsAction="never"
+        android:title="@string/view_map"/>
+    <item
+        android:id="@+id/menu_list"
+        android:icon="@drawable/layar_ic_menu_list"
+        android:orderInCategory="97"
+        android:showAsAction="never"
+        android:title="@string/view_list"/>
+    <item
+        android:id="@+id/menu_screenshot"
+        android:icon="@drawable/layar_ic_menu_camera"
+        android:orderInCategory="97"
+        android:showAsAction="never"
+        android:title="@string/menu_screenshot"/>
+    <item
+        android:id="@+id/menu_layer_actions"
+        android:icon="@drawable/layar_ic_menu_layer_actions"
+        android:orderInCategory="98"
+        android:showAsAction="never"
+        android:title="@string/layer_actions"/>
+    <item
+        android:id="@+id/menu_layer_filters"
+        android:icon="@drawable/layar_ic_menu_settings"
+        android:orderInCategory="99"
+        android:showAsAction="never"
+        android:title="@string/menu_filter"/>
+    <item
+        android:id="@+id/menu_layer_details"
+        android:icon="@drawable/layar_ic_menu_about"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_layer_info"/>
+
+</menu>

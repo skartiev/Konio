@@ -1,0 +1,263 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	android:versionCode
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:5:5
+MERGED from konio_android:layar_sdk:unspecified:16:5
+	android:name
+		ADDED from AndroidManifest.xml:5:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:6:5
+MERGED from konio_android:layar_sdk:unspecified:15:5
+	android:name
+		ADDED from AndroidManifest.xml:6:22
+uses-permission#android.permission.CAMERA
+ADDED from AndroidManifest.xml:8:5
+MERGED from konio_android:layar_sdk:unspecified:21:5
+	android:name
+		ADDED from AndroidManifest.xml:8:22
+uses-feature#android.hardware.camera
+ADDED from AndroidManifest.xml:9:5
+MERGED from konio_android:layar_sdk:unspecified:25:5
+	android:name
+		ADDED from AndroidManifest.xml:9:19
+uses-feature#android.hardware.camera.autofocus
+ADDED from AndroidManifest.xml:10:5
+	android:name
+		ADDED from AndroidManifest.xml:10:19
+uses-permission#android.permission.BLUETOOTH
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+application
+ADDED from AndroidManifest.xml:17:5
+MERGED from com.android.support:appcompat-v7:21.0.0:16:5
+MERGED from com.android.support:support-v4:21.0.0:16:5
+MERGED from com.badoo.mobile:android-weak-handler:1.0:12:5
+MERGED from me.dm7.barcodescanner:zbar:1.5:11:5
+MERGED from me.dm7.barcodescanner:core:1.5:11:5
+MERGED from com.android.support:support-v4:21.0.0:16:5
+MERGED from com.kontakt.sdk.android:library:1.0.2:12:5
+MERGED from konio_android:layar_sdk:unspecified:27:5
+	android:label
+		ADDED from AndroidManifest.xml:20:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:18:9
+	android:icon
+		ADDED from AndroidManifest.xml:19:9
+	android:theme
+		ADDED from AndroidManifest.xml:21:9
+activity#com.zuzex.konio.MainActivity
+ADDED from AndroidManifest.xml:22:9
+	android:label
+		ADDED from AndroidManifest.xml:24:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:25:13
+	android:name
+		ADDED from AndroidManifest.xml:23:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:26:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:27:17
+	android:name
+		ADDED from AndroidManifest.xml:27:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:28:17
+	android:name
+		ADDED from AndroidManifest.xml:28:27
+activity#com.zuzex.konio.Camera.CameraActivity
+ADDED from AndroidManifest.xml:32:9
+	android:name
+		ADDED from AndroidManifest.xml:32:19
+service#com.zuzex.konio.Services.KonioBaseService
+ADDED from AndroidManifest.xml:33:9
+	android:exported
+		ADDED from AndroidManifest.xml:33:60
+	android:name
+		ADDED from AndroidManifest.xml:33:18
+service#com.kontakt.sdk.android.manager.BeaconService
+ADDED from AndroidManifest.xml:36:9
+	android:exported
+		ADDED from AndroidManifest.xml:36:79
+	android:name
+		ADDED from AndroidManifest.xml:36:18
+service#com.kontakt.sdk.android.manager.ActionService
+ADDED from AndroidManifest.xml:37:9
+	android:exported
+		ADDED from AndroidManifest.xml:37:79
+	android:name
+		ADDED from AndroidManifest.xml:37:18
+meta-data#kontakt.io.API_KEY
+ADDED from AndroidManifest.xml:38:9
+	android:value
+		ADDED from AndroidManifest.xml:38:54
+	android:name
+		ADDED from AndroidManifest.xml:38:20
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+MERGED from com.android.support:appcompat-v7:21.0.0:15:5
+MERGED from com.android.support:support-v4:21.0.0:15:5
+MERGED from com.badoo.mobile:android-weak-handler:1.0:8:5
+MERGED from me.dm7.barcodescanner:zbar:1.5:7:5
+MERGED from me.dm7.barcodescanner:core:1.5:7:5
+MERGED from com.android.support:support-v4:21.0.0:15:5
+MERGED from com.kontakt.sdk.android:library:1.0.2:8:5
+MERGED from konio_android:layar_sdk:unspecified:5:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+permission#com.layar.permission.MAPS_RECEIVE
+ADDED from konio_android:layar_sdk:unspecified:9:5
+	android:protectionLevel
+		ADDED from konio_android:layar_sdk:unspecified:11:9
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:10:9
+uses-permission#com.layar.permission.MAPS_RECEIVE
+ADDED from konio_android:layar_sdk:unspecified:13:5
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:13:22
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from konio_android:layar_sdk:unspecified:14:5
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:14:22
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from konio_android:layar_sdk:unspecified:17:5
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:17:22
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from konio_android:layar_sdk:unspecified:18:5
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:18:22
+uses-permission#android.permission.ACCESS_COARSE_UPDATES
+ADDED from konio_android:layar_sdk:unspecified:19:5
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:19:22
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from konio_android:layar_sdk:unspecified:20:5
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:20:22
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from konio_android:layar_sdk:unspecified:22:5
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:22:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from konio_android:layar_sdk:unspecified:23:5
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:23:22
+activity#com.layar.sdk.LayarSDKActivity
+ADDED from konio_android:layar_sdk:unspecified:31:9
+	android:screenOrientation
+		ADDED from konio_android:layar_sdk:unspecified:34:13
+	android:launchMode
+		ADDED from konio_android:layar_sdk:unspecified:33:13
+	android:theme
+		ADDED from konio_android:layar_sdk:unspecified:35:13
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:32:13
+activity#com.layar.player.geo.FilterSettingsActivity
+ADDED from konio_android:layar_sdk:unspecified:36:9
+	android:configChanges
+		ADDED from konio_android:layar_sdk:unspecified:38:13
+	android:theme
+		ADDED from konio_android:layar_sdk:unspecified:39:13
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:37:13
+activity#com.layar.LayerDetailsActivity
+ADDED from konio_android:layar_sdk:unspecified:40:9
+	android:configChanges
+		ADDED from konio_android:layar_sdk:unspecified:42:13
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:41:13
+activity#com.layar.WebActivity
+ADDED from konio_android:layar_sdk:unspecified:43:9
+	android:configChanges
+		ADDED from konio_android:layar_sdk:unspecified:45:13
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:44:13
+activity#com.layar.ShareSocialActivity
+ADDED from konio_android:layar_sdk:unspecified:46:9
+	android:configChanges
+		ADDED from konio_android:layar_sdk:unspecified:48:13
+	android:theme
+		ADDED from konio_android:layar_sdk:unspecified:49:13
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:47:13
+activity#com.layar.VideoActivity
+ADDED from konio_android:layar_sdk:unspecified:50:9
+	android:configChanges
+		ADDED from konio_android:layar_sdk:unspecified:52:13
+	android:theme
+		ADDED from konio_android:layar_sdk:unspecified:53:13
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:51:13
+activity#com.layar.AudioActivity
+ADDED from konio_android:layar_sdk:unspecified:54:9
+	android:configChanges
+		ADDED from konio_android:layar_sdk:unspecified:56:13
+	android:theme
+		ADDED from konio_android:layar_sdk:unspecified:57:13
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:55:13
+activity#com.layar.ScreenshotActivity
+ADDED from konio_android:layar_sdk:unspecified:58:9
+	android:configChanges
+		ADDED from konio_android:layar_sdk:unspecified:60:13
+	android:theme
+		ADDED from konio_android:layar_sdk:unspecified:61:13
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:59:13
+activity#com.facebook.LoginActivity
+ADDED from konio_android:layar_sdk:unspecified:64:9
+	android:theme
+		ADDED from konio_android:layar_sdk:unspecified:66:13
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:65:13
+activity#com.layar.ShareOnFacebookActivity
+ADDED from konio_android:layar_sdk:unspecified:67:9
+	android:windowSoftInputMode
+		ADDED from konio_android:layar_sdk:unspecified:70:13
+	android:theme
+		ADDED from konio_android:layar_sdk:unspecified:69:13
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:68:13
+activity#com.layar.MapV2Activity
+ADDED from konio_android:layar_sdk:unspecified:73:9
+	android:theme
+		ADDED from konio_android:layar_sdk:unspecified:75:13
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:74:13
+receiver#com.layar.localytics.CloseSesionBroadcastReciever
+ADDED from konio_android:layar_sdk:unspecified:77:9
+	android:exported
+		ADDED from konio_android:layar_sdk:unspecified:79:13
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:78:13
+intent-filter#com.layar.close_session
+ADDED from konio_android:layar_sdk:unspecified:80:13
+action#com.layar.close_session
+ADDED from konio_android:layar_sdk:unspecified:81:17
+	android:name
+		ADDED from konio_android:layar_sdk:unspecified:81:25

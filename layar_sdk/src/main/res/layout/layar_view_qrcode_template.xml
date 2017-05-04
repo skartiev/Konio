@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220px"
+    android:layout_height="220px"
+    android:padding="10px"
+    android:background="@drawable/layar_qrcode_background">
+    
+    <ImageView android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28px"
+        android:src="@drawable/layar_qrcode_icon_audio"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108px"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="none"
+        android:singleLine="true"
+        android:textColor="#646469"
+        android:text="Audio"
+        android:textSize="27px"
+        android:textStyle="bold" />
+    
+    <TextView android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="142px"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="end"
+        android:lines="2"
+        android:textColor="#646469"
+        android:text="Listen Now Listen Now Listen Now Listen Now"
+        android:textSize="12px" />
+        
+
+</RelativeLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Please do not translate the string names and the placeholders (%%) -->
+
+
+    <!-- General Strings -->
+    <string name="ok">Ok</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="apply">Anwenden</string>
+    <string name="save">Speichern</string>
+    <string name="use">Verwenden</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="continue_">Weiter</string>
+    <string name="layer">Ebene</string>
+    <string name="action_scan">Scannen</string>
+    <string name="action_share">Teilen</string>
+    <string name="ellipsis">...</string>
+
+    <!-- Miscellaneous errors -->
+    <string name="no_connection_title">Keine Verbindung mit dem Netzwerk</string>
+    <string name="no_connection_message">Keine Netzwerkverbindung. Bitte überprüfe deine Verbindung und versuche es später nochmals.</string>
+    <string name="no_connection_settings">Einstellungen</string>
+    <string name="toast_gps_disabled">GPS deaktiviert</string>
+    <string name="openGPSSettingPrompt">GPS ist deaktiviert, möchtest du es aktivieren?</string>
+    <string name="error_no_connection">Keine Verbindung</string>
+    <string name="error_no_active_connection">Keine Verbindung mit dem Netzwerk</string>
+    <string name="unable_to_connect">Keine Verbindung mit dem Layar-Server, bitte versuche es später nochmals.</string>
+    <string name="error_out_of_memory">Nicht genügend Speicher zur Verfügung. Bitte schließe andere Applikationen und versuche es nochmals.</string>
+    <string name="error_layer_deleted">Diese Ebene ist nicht mehr verfügbar</string>
+    <string name="error_maintenance">Wir führen Wartungsarbeiten an den Layar-Servern durch, wir sind bald wieder für Sie da.</string>
+    <string name="error_maintenance_title">Wegen Wartungsarbeiten nicht verfügbar</string>
+    <string name="error_location_provider_title">Layar benötigt deinen Standort</string>
+    <string name="error_location_provider_message">Um Geo-Ebenen betrachten zu können, aktiviere bitte Standortservices in den Geräteeinstellungen.</string>
+    <string name="error_oauth_timestamp_invalid">Die Datums- oder Zeiteinstellungen sind nicht korrekt. Bitte überprüfe die Geräteeinstellungen und versuche es nochmals.</string>
+    <string name="error_oauth_verification_failed">Die Verifikation ist auf unseren Servern fehlgeschlagen. Bitte versuche es später nochmals.</string>
+    <string name="error_player_expired">Der Zugang dieser Applikation zur Layar-Plattform ist abgelaufen.</string>
+
+    <!-- Vision AR View -->
+    <string name="vision_no_content_title">Leere Seite</string>
+    <string name="vision_no_content_text">Scanne eine andere Seite, um mehr Inhalte zu sehen.</string>
+    <string name="vision_scan">Antippen zum Scannen</string>
+    <string name="unsupported_content_title">Nicht unterstützter Inhalt</string>
+    <string name="unsupported_content_description">Dieser Inhalt kann nicht mit der installierten Version von Layar betrachtet werden.</string>
+
+    <!-- View Buttons -->
+    <string name="view_map">Karte</string>
+    <string name="view_list">Liste</string>
+
+    <!-- Menu Options -->
+    <string name="menu_filter">Filter ändern</string>
+    <string name="menu_refresh">Aktualisieren</string>
+    <string name="menu_layer_info">Ebenen-Info</string>
+    <string name="menu_screenshot">Bildschirmfoto</string>
+    <string name="menu_goto_ar">Kameraansicht</string>
+
+    <!-- Auto Trigger Options -->
+    <string name="trigger_available">Dieses Objekt enthält eine automatische Aktion.</string>
+    <string name="trigger_do_launch_action">Start</string>
+    <string name="trigger_dont_launch_action">Nicht starten</string>
+
+    <!-- Action Chooser -->
+    <string name="action_chooser_title">Anwendung wählen</string>
+
+    <!-- Sharing -->
+    <string name="share_dialog_title">Teilen auf</string>
+    <string name="share_chooser_title">Ebene teilen</string>
+    <string name="share_layer">Teile Ebene</string>
+    <!-- supressed -->
+    <string name="share_screenshot">Teile Bildschirmfoto</string>
+    <string name="share_success_message">Teilen erfolgreich!</string>
+    <string name="share_fail">Beim Teilen ist ein Problem aufgetreten!</string>
+    <string name="layer_details_subject" formatted="false">Betrachte %title% mit #layar</string>
+    <string name="layer_details_body" formatted="false">Ich nutze die kostenlose Layar-App auf meinem %android% und möchte diese Ebene teilen, die ich entdeckt habe!
+\n\n%name%
+\n\n%description%
+\nHerausgegeben von: %publisher%
+\nLink: %link%
+\nLade Layar unter http://get.layar.com kostenlos für iPhone oder Android herunter</string>
+    <string name="share_status">Teile Status</string>
+
+    <!-- POI actions -->
+    <string name="poi_action_directions">Route dorthin</string>
+    <string name="poi_action_lock">In Realansicht fixieren</string>
+    <string name="poi_action_unlock">In Realansicht loslassen</string>
+    <string name="poi_action_more">Mehr</string>
+    
+    <!-- Audio -->
+    <string name="audio_loading">Lade Audio</string>
+    <string name="audio_error">Diese Audio-Datei kann nicht abgespielt werden.</string>
+    <string name="audio_error_title">Kann Audioelement nicht abspielen</string>
+
+    <!-- Video -->
+    <string name="video_loading">Lade Video</string>
+
+    <!-- DetailsView -->
+
+    <string name="copy_link">Link kopieren</string>
+    <string name="copy_message">Link wurde kopiert</string>
+    <string name="copy_message_fail">Es gibt nichts zu kopieren</string>
+
+    <!-- Status -->
+    <string name="status_waiting_location">Warte auf Ortsbestimmung...</string>
+    <string name="status_authentication_required">Anmelden, um diese Ebene zu benutzen</string>
+
+    <!-- Status results -->
+    <string name="status_no_results_found">Keine Ergebnisse gefunden</string>
+    <string name="status_1_result_found" formatted="false">1 Point of Interest gefunden</string>
+    <string name="status_x_results_found" formatted="false">%progress% Points of Interest gefunden</string>
+    <string name="status_no_content_available">Keine Inhalte verfügbar</string>
+    <string name="status_something_went_wrong">Ein Fehler ist aufgetreten. Bitte nochmals versuchen!</string>
+
+    <!-- Progress -->
+    <string name="progress_loading">Lade...</string>
+    <string name="progress_processing">Bearbeite...</string>
+    <string name="progress_analyzing">Analysiere...</string>
+    <string name="progress_getting_results">Empfange Ergebnisse...</string>
+    <string name="progress_getting_content">Lade Inhalte...</string>
+
+    <!-- Social stuff -->
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="developer">Entwickler</string>
+    <string name="email">Email</string>
+
+    <!-- Feedback -->
+    <string name="layer_report_problem">Ein Problem melden</string>
+
+    <!-- POIDetails strings -->
+    <string name="spot_actions">Ortsaktionen</string>
+
+    <!-- Layer custom filters -->
+    <string name="custom_filter_range_settings">Reichweite</string>
+    <string name="custom_filter_range_text" formatted="false">Zeige Orte näher als %value%</string>
+    <string name="custom_filter_layer_settings">Ebeneneinstellungen</string>
+
+    <!-- DetailsView activity -->
+    <string name="leaving_message">Layar verlassen: Drücke den Zurück-Knopf, um zurück zu kommen!</string>
+    <string name="download_message">Bist du sicher, dass du diese PDF-Datei herunterladen möchtest?</string>
+    <string name="open_in_browser">Im Browser öffnen</string>
+    <string name="download_layar_title">Layar herunterladen</string>
+    <string name="download_layar_description">Du musst die kostenlose App \'Layar\' herunterladen, um diesen Inhalt betrachten zu können.</string>
+    <string name="download_layar_button">Layar herunterladen</string>
+
+    <!-- Problem reporting -->
+    <string name="multiple_login_email_address">support@layar.com</string>
+    <string name="layer_report_problem_body" formatted="false">Ich habe ein Problem in %layername% festgestellt. Bitte schaut euch das mal an!</string>
+    <string name="qrcode_audio">Audio</string>
+    <string name="qrcode_audio_text">Jetzt anhören</string>
+    <string name="qrcode_email">Email</string>
+    <string name="qrcode_geo">Standort</string>
+    <string name="qrcode_geo_text">Zeige Karte</string>
+    <string name="qrcode_layer">Ebene</string>
+    <string name="qrcode_sms">SMS</string>
+    <string name="qrcode_tel">Anrufen</string>
+    <string name="qrcode_unknown">Unbekannt</string>
+    <string name="qrcode_vcard">vCard</string>
+    <string name="qrcode_video">Video</string>
+    <string name="qrcode_video_text">Jetzt ansehen</string>
+    <string name="qrcode_web">WWW</string>
+    <string name="qrcode_googleplay">Google Play</string>
+    <string name="qrcode_unsuported_action">Nicht unterstützte Aktion</string>
+
+    <!-- Share on Facebook -->
+    <string name="share_on_facebook_write_post">Beitrag schreiben</string>
+    <string name="share_on_facebook_post">Beitrag</string>
+    <string name="share_on_facebook_whats_on_your_mind">Was machst du gerade?</string>
+    <string name="share_on_facebook_share_link">Link teilen</string>
+    <string name="share_on_facebook_share">Teilen</string>
+    <string name="share_on_facebook_add_your_thougth">Sag etwas darüber...</string>
+    <string name="share_generic_message">Ich habe diesen Link mit #layar gefunden</string>
+    <string name="share_via">Teilen mittels</string>
+
+    <!-- Tips -->
+    <string name="tip_point_back">Kamera auf die gescannte Seite halten, um Inhalte zu sehen</string>
+    <string name="tip_point_back_hint"></string>
+    <string name="tip_nothing_found">Nichts gefunden</string>    
+    <string name="tip_nothing_found_hint_1" formatted="false"><b>Tipp:</b> Scanne Seiten mit einem %appname%-Logo oder QR-Codes</string>
+    <string name="tip_nothing_found_hint_2"><b>Tipp:</b> Sorge für ausreichend Licht und halte das Gerät ruhig.</string>
+    <string name="tip_nothing_found_hint_3" formatted="false"><b>Tipp:</b> Kein %appname%-Logo auf der Seite? Versuche, einen QR-Code zu scannen</string>
+    <string name="tip_nothing_found_hint_4" formatted="false"><b>Tipp:</b>: Scanne nur Seiten oder Gegenstände mit einem %appname%-Logo</string>
+    <string name="tip_nothing_found_hint_5"><b>Tipp:</b> Scannst du deine Umgebung? Öffne stattdessen eine Geo-Ebene.</string>
+    <string name="tap_to_dismiss">ANTIPPEN ZUM SCHLIESSEN</string>
+    
+    <string name="tip_detach_gestures_flat">Mit zwei Fingern zoomen</string>
+    <string name="tip_detach_gestures_3d">Mit zwei Fingern zoomen und rotieren</string>
+
+    <!-- Take screenshot -->
+    <string name="tap_to_take_screenshot">Antippen, um Bildschirmfoto aufzunehmen</string>
+    <string name="cant_take_screenshot">Kann in dieser Ansicht kein Bildschirmfoto machen.</string>
+    <string name="screenshot_saved">Bildschirmfoto wurde zur Galerie hinzugefügt</string>
+    
+    <string name="map_view">Zur Kartenansicht wechseln</string>
+    <string name="refresh_layer">Aktualisieren</string>
+    <string name="ar_view">Zur AR-Ansicht wechseln</string>
+    <string name="share">Teilen</string>
+    <string name="filters">Filter</string>
+    <string name="layer_info">Ebenen-Info</string>
+    <string name="layer_actions">Ebenen-Aktionen</string>
+    <string name="layer_photo">Foto aufnehmen</string>
+    
+    <string name="detach_content">Heranholen</string>
+    <string name="detach_tip">Kamera auf die gescannte Seite halten oder unten auf das Icon drücken, um die Inhalte heranzuholen</string>
+    
+    
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tip_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_big"
+        android:gravity="center"
+        android:text="@string/tip_nothing_found"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/tip_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_big"
+        android:layout_marginTop="@dimen/margin_big"
+        android:src="@drawable/layar_tip_nothing_found_1" />
+
+    <TextView
+        android:id="@+id/tip_text"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingBottom="@dimen/margin_big"
+        android:paddingLeft="@dimen/margin_normal"
+        android:paddingRight="@dimen/margin_normal"
+        android:text="@string/tip_nothing_found_hint_2"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/text_size_medium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_big"
+        android:text="@string/tap_to_dismiss"
+        android:textColor="@color/primary_text" />
+
+</merge>

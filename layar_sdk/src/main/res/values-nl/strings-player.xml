@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Please do not translate the string names and the placeholders (%%) -->
+
+
+    <!-- General Strings -->
+    <string name="ok">OK</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="apply">Toepassen</string>
+    <string name="save">Opslaan</string>
+    <string name="use">Gebruik</string>
+    <string name="cancel">Annuleren</string>
+    <string name="continue_">Doorgaan</string>
+    <string name="layer">Layer</string>
+    <string name="action_scan">Scan</string>
+    <string name="action_share">Deel</string>
+    <string name="ellipsis">...</string>
+
+    <!-- Miscellaneous errors -->
+    <string name="no_connection_title">Geen netwerkverbinding</string>
+    <string name="no_connection_message">Geen netwerk, check je netwerkverbinding.</string>
+    <string name="no_connection_settings">Instellingen</string>
+    <string name="toast_gps_disabled">GPS uitgeschakeld</string>
+    <string name="openGPSSettingPrompt">GPS uitgeschakeld, Wil je GPS inschakelen?</string>
+    <string name="error_no_connection">Kan niet verbinden</string>
+    <string name="error_no_active_connection">Geen netwerkverbinding</string>
+    <string name="unable_to_connect">Kan niet verbinden met de Layar server. Probeer het later opnieuw.</string>
+    <string name="error_out_of_memory">Niet genoeg geheugen. Sluit andere apps en probeer opnieuw.</string>
+    <string name="error_layer_deleted">Deze layer is niet meer beschikbaar</string>
+    <string name="error_maintenance">We doen momenteel onderhoud aan de Layar servers, de service zal snel weer terug zijn</string>
+    <string name="error_maintenance_title">Offline voor onderhoud</string>
+    <string name="error_location_provider_title">Layar heeft je locatie nodig</string>
+    <string name="error_location_provider_message">Om Geo Layers te zien heeft Layar je locatie nodig. Ga naar toestel instellingen om dit toe te staan.</string>
+    <string name="error_oauth_timestamp_invalid">Datum en tijd zijn niet correct. Controleer je instellingen en probeer het opnieuw.</string>
+    <string name="error_oauth_verification_failed">Server verificatie mislukt. Probeer het later opnieuw.</string>
+    <string name="error_player_expired">Toegang tot het Layar platform is verlopen voor deze applicatie</string>
+
+    <!-- Vision AR View -->
+    <string name="vision_no_content_title">Lege pagina</string>
+    <string name="vision_no_content_text">Scan een andere pagina om meer content te zien</string>
+    <string name="vision_scan">Tik scherm om te scannen</string>
+    <string name="unsupported_content_title">Content niet ondersteund</string>
+    <string name="unsupported_content_description">Deze content is niet compatible met deze versie van Layar</string>
+
+    <!-- View Buttons -->
+    <string name="view_map">Kaart</string>
+    <string name="view_list">Lijst</string>
+
+    <!-- Menu Options -->
+    <string name="menu_filter">Filters aanpassen</string>
+    <string name="menu_refresh">Verversen</string>
+    <string name="menu_layer_info">Layer info</string>
+    <string name="menu_screenshot">Screenshot</string>
+    <string name="menu_goto_ar">Camera view</string>
+
+    <!-- Auto Trigger Options -->
+    <string name="trigger_available">Dit object heeft een automatische actie.</string>
+    <string name="trigger_do_launch_action">Open</string>
+    <string name="trigger_dont_launch_action">Niet openen</string>
+
+    <!-- Action Chooser -->
+    <string name="action_chooser_title">Kies applicatie</string>
+
+    <!-- Sharing -->
+    <string name="share_dialog_title">Delen</string>
+    <string name="share_chooser_title">Deel deze layer</string>
+    <string name="share_layer">Deel layer</string>
+    <!-- supressed -->
+    <string name="share_screenshot">Deel screenshot</string>
+    <string name="share_success_message">Delen is gelukt!</string>
+    <string name="share_fail">Er was een probleem met het delen!</string>
+    <string name="layer_details_subject" formatted="false">Bekijk %title% met #layar</string>
+    <string name="layer_details_body" formatted="false">Ik gebruik de gratis Layar app op mijn %android% en wil deze layer met je delen.
+\n\n%name%
+\n\n%description%
+\nGepubliceerd door: %publisher%
+\nLink: %link%
+\nSee Installeer de gratis Layar app for IOS en Android via http://get.layar.com
+</string>
+    <string name="share_status">Deel status</string>
+
+    <!-- POI actions -->
+    <string name="poi_action_directions">Breng me daar</string>
+    <string name="poi_action_lock">Lock in view</string>
+    <string name="poi_action_unlock">Unlock in view</string>
+    <string name="poi_action_more">Meer</string>
+    
+    <!-- Audio -->
+    <string name="audio_loading">Laden audio</string>
+    <string name="audio_error">Audio kan niet afgespeeld worden.</string>
+    <string name="audio_error_title">Kan audio niet afspelen</string>
+
+    <!-- Video -->
+    <string name="video_loading">Laden video</string>
+
+    <!-- DetailsView -->
+
+    <string name="copy_link">Kopieer link</string>
+    <string name="copy_message">Link is gekopieerd</string>
+    <string name="copy_message_fail">Er valt niks te kopieren </string>
+
+    <!-- Status -->
+    <string name="status_waiting_location">Wachten op locatie</string>
+    <string name="status_authentication_required">Login om deze layer te gebruiken</string>
+
+    <!-- Status results -->
+    <string name="status_no_results_found">Geen resultaten gevonden</string>
+    <string name="status_1_result_found" formatted="false">1 point of interest gevonden</string>
+    <string name="status_x_results_found" formatted="false">%progress% points of interest gevonden</string>
+    <string name="status_no_content_available">Geen content beschikbaar</string>
+    <string name="status_something_went_wrong">Er ging iets verkeerd. Probeer opnieuw</string>
+
+    <!-- Progress -->
+    <string name="progress_loading">Laden...</string>
+    <string name="progress_processing">Verwerken...</string>
+    <string name="progress_analyzing">Analyseren...</string>
+    <string name="progress_getting_results">Resultaten ophalen...</string>
+    <string name="progress_getting_content">Content opvragen...</string>
+
+    <!-- Social stuff -->
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="developer">Ontwikkelaar</string>
+    <string name="email">Email</string>
+
+    <!-- Feedback -->
+    <string name="layer_report_problem">Rapporteer een probleem</string>
+
+    <!-- POIDetails strings -->
+    <string name="spot_actions">Spot acties</string>
+
+    <!-- Layer custom filters -->
+    <string name="custom_filter_range_settings">Afstand</string>
+    <string name="custom_filter_range_text" formatted="false">Toon spots binnen %value%</string>
+    <string name="custom_filter_layer_settings">Layer instellingen</string>
+
+    <!-- DetailsView activity -->
+    <string name="leaving_message">Je verlaat Layar; Druk op de back knop om terug te keren!</string>
+    <string name="download_message">Weet je zeker dat je dit PDF bestand wilt downloaden?</string>
+    <string name="open_in_browser">Open in browser </string>
+    <string name="download_layar_title">Installeer Layar</string>
+    <string name="download_layar_description">Je moet de gratis Layar app downloaden om deze content te bekijken.</string>
+    <string name="download_layar_button">Installeer Layar</string>
+
+    <!-- Problem reporting -->
+    <string name="multiple_login_email_address">support@layar.com</string>
+    <string name="layer_report_problem_body" formatted="false">Ik heb een probleem gevonden in %layername%. Kunnen jullie hiernaar kijken?</string>
+    <string name="qrcode_audio">Audio</string>
+    <string name="qrcode_audio_text">Beluister nu</string>
+    <string name="qrcode_email">Email</string>
+    <string name="qrcode_geo">Locatie</string>
+    <string name="qrcode_geo_text">Bekijk op kaart</string>
+    <string name="qrcode_layer">Layer</string>
+    <string name="qrcode_sms">SMS</string>
+    <string name="qrcode_tel">Bellen</string>
+    <string name="qrcode_unknown">Onbekend</string>
+    <string name="qrcode_vcard">vCard</string>
+    <string name="qrcode_video">Video</string>
+    <string name="qrcode_video_text">Bekijk nu</string>
+    <string name="qrcode_web">WWW</string>
+    <string name="qrcode_googleplay">Google Play</string>
+    <string name="qrcode_unsuported_action">Actie niet ondersteund</string>
+
+    <!-- Share on Facebook -->
+    <string name="share_on_facebook_write_post">Bericht schrijven</string>
+    <string name="share_on_facebook_post">Plaatsen</string>
+    <string name="share_on_facebook_whats_on_your_mind">Wat ben je aan het doen?</string>
+    <string name="share_on_facebook_share_link">Deel link</string>
+    <string name="share_on_facebook_share">Deel</string>
+    <string name="share_on_facebook_add_your_thougth">Zeg hier iets over</string>
+    <string name="share_generic_message">Ik heb deze link in #layar gevonden.</string>
+    <string name="share_via">Delen met</string>
+
+    <!-- Tips -->
+    <string name="tip_point_back">Richt terug om content te zien</string>
+    <string name="tip_point_back_hint"></string>
+    <string name="tip_nothing_found">Niks gevonden</string>    
+    <string name="tip_nothing_found_hint_1" formatted="false"><b>Tip:</b> Scan items met een %appname%  logo of\nQR codes</string>
+    <string name="tip_nothing_found_hint_2"><b>Tip:</b> Houd je toestel stil en zorg voor voldoende licht.</string>
+    <string name="tip_nothing_found_hint_3" formatted="false"><b>Tip:</b>Geen %appname% logo op de pagina? Probeer eens een QR code</string>
+    <string name="tip_nothing_found_hint_4" formatted="false"><b>Tip:</b>Scan alleen items met een %appname%  logo.</string>
+    <string name="tip_nothing_found_hint_5"><b>Tip:</b> Je omgeving aan het scannen? Open een Geo Layer.</string>
+    <string name="tap_to_dismiss">TIK OM DOOR TE GAAN</string>
+    
+    <string name="tip_detach_gestures_flat">Zoom met 2 vingers</string>
+    <string name="tip_detach_gestures_3d">Zoom en draai met twee vingers</string>
+
+    <!-- Take screenshot -->
+    <string name="tap_to_take_screenshot">Tik om screenshot te maken</string>
+    <string name="cant_take_screenshot">Kan geen screenshot maken in deze view</string>
+    <string name="screenshot_saved">Foto toegevoegd aan gallerij</string>
+    
+    <string name="map_view">Bekijk op kaart</string>
+    <string name="refresh_layer">Verversen</string>
+    <string name="ar_view">Bekijk in camera</string>
+    <string name="share">Deel</string>
+    <string name="filters">Filters</string>
+    <string name="layer_info">Layer info</string>
+    <string name="layer_actions">Layer acties</string>
+    <string name="layer_photo">Neem foto</string>
+    
+    <string name="detach_content">Doorgaan in pop-out</string>
+    <string name="detach_tip">Richt terug op het item of tik hieronder om de content verder te bekijken.</string>
+    
+    
+</resources>
